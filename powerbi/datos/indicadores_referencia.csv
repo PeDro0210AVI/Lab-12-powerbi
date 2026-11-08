@@ -1,0 +1,27 @@
+indicador,valor_lab10
+Visitantes 2022-2025 | Todos los destinos,16207530.0
+Derrama USD 2022-2025 | Todos los destinos,4721779181.0
+Variacion visitantes vs 2018-2021 (%) | Todos los destinos,56.31554125150578
+Estancia ponderada | Todos los destinos,2.485588378981868
+Visitantes 2022-2025 | Antigua Guatemala,3990138.0
+Derrama USD 2022-2025 | Antigua Guatemala,1300105598.0
+Variacion visitantes vs 2018-2021 (%) | Antigua Guatemala,53.57558948470822
+Estancia ponderada | Antigua Guatemala,2.7650911572481958
+MAPE (%) | SARIMA,2.6289590143586383
+MAPE (%) | Suavizamiento (Holt-Winters),2.1570439815185027
+MAPE (%) | Tendencia + estacionalidad,3.6534187701285776
+AUC | Arbol de decision,0.6592163860957065
+AUC | K vecinos cercanos,0.6728083403211828
+AUC | Regresion logistica,0.7101058394932107
+Casos Acierto: no promotor | Arbol de decision,176.0
+Casos Acierto: promotor | Arbol de decision,1355.0
+Casos Falsa alarma | Arbol de decision,588.0
+Casos Oportunidad perdida | Arbol de decision,131.0
+Casos Acierto: no promotor | K vecinos cercanos,203.0
+Casos Acierto: promotor | K vecinos cercanos,1355.0
+Casos Falsa alarma | K vecinos cercanos,561.0
+Casos Oportunidad perdida | K vecinos cercanos,131.0
+Casos Acierto: no promotor | Regresion logistica,245.0
+Casos Acierto: promotor | Regresion logistica,1314.0
+Casos Falsa alarma | Regresion logistica,519.0
+Casos Oportunidad perdida | Regresion logistica,172.0
