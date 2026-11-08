@@ -1,0 +1,12 @@
+# Datos de la portada del PDF (los lee docs/pdf/portada.lua).
+portada:
+  universidad: UNIVERSIDAD DEL VALLE DE GUATEMALA
+  curso: CC3066 - Data Science
+  laboratorio: Laboratorio 12
+  tema: Visualización interactiva con Power BI
+  integrantes:
+    - Javier López del Cid 23415
+    - Pedro Rubén Avila Cofiño 23089
+    - Brandon Werner Rivera Cabrera 23088
+  lugar: GUATEMALA
+  fecha: 8 de noviembre de 2026
