@@ -1,0 +1,37 @@
+variable,peso,magnitud,modelo,tipo
+Gasto diario (USD),0.5007440676838737,0.5007440676838737,Regresion logistica,coeficiente
+tipo: alojamiento_Ecolodge,0.49435994414539663,0.49435994414539663,Regresion logistica,coeficiente
+Incidencias reportadas,-0.39498301532732355,0.39498301532732355,Regresion logistica,coeficiente
+destino: Rio Dulce y Livingston,-0.3457420055517261,0.3457420055517261,Regresion logistica,coeficiente
+Actividades de naturaleza,0.33697581700482443,0.33697581700482443,Regresion logistica,coeficiente
+destino: Ciudad de Guatemala,-0.2638865149204972,0.2638865149204972,Regresion logistica,coeficiente
+Noches de estancia,0.23511013783763832,0.23511013783763832,Regresion logistica,coeficiente
+Uso de guia local,0.22755982779616146,0.22755982779616146,Regresion logistica,coeficiente
+Actividades culturales,0.21407245996743277,0.21407245996743277,Regresion logistica,coeficiente
+Presion turistica del destino,-0.1992595849353089,0.1992595849353089,Regresion logistica,coeficiente
+mercado: Sudamerica,-0.18751708325533994,0.18751708325533994,Regresion logistica,coeficiente
+tipo: alojamiento_Casa de familiares,-0.11370459482583385,0.11370459482583385,Regresion logistica,coeficiente
+Gasto diario (USD),0.36541024244082987,0.36541024244082987,Arbol de decision,importancia
+Incidencias reportadas,0.27236737717195275,0.27236737717195275,Arbol de decision,importancia
+Actividades de naturaleza,0.1288973605839102,0.1288973605839102,Arbol de decision,importancia
+Uso de guia local,0.06090963577060182,0.06090963577060182,Arbol de decision,importancia
+Noches de estancia,0.059098280344402045,0.059098280344402045,Arbol de decision,importancia
+Actividades culturales,0.03569210752003206,0.03569210752003206,Arbol de decision,importancia
+Dias de anticipacion de la reserva,0.026701442160620453,0.026701442160620453,Arbol de decision,importancia
+Edad del visitante,0.017505841251595537,0.017505841251595537,Arbol de decision,importancia
+% de empresas certificadas,0.015112091194744416,0.015112091194744416,Arbol de decision,importancia
+grupo: viaje_Familia,0.009843842419633415,0.009843842419633415,Arbol de decision,importancia
+Presion turistica del destino,0.008461779141677528,0.008461779141677528,Arbol de decision,importancia
+mercado: Sudamerica,0.0,0.0,Arbol de decision,importancia
+Incidencias reportadas,0.08278529650829008,0.08278529650829008,K vecinos cercanos,permutacion
+Gasto diario (USD),0.04641024037833008,0.04641024037833008,K vecinos cercanos,permutacion
+Actividades de naturaleza,0.026531708453882474,0.026531708453882474,K vecinos cercanos,permutacion
+Uso de guia local,0.02205552176705633,0.02205552176705633,K vecinos cercanos,permutacion
+Actividades culturales,0.016541996578203932,0.016541996578203932,K vecinos cercanos,permutacion
+Edad del visitante,0.014295377164911222,0.014295377164911222,K vecinos cercanos,permutacion
+Noches de estancia,0.01125725426445584,0.01125725426445584,K vecinos cercanos,permutacion
+Mercado,0.010330754670865167,0.010330754670865167,K vecinos cercanos,permutacion
+Tipo_alojamiento,0.006673070692487348,0.006673070692487348,K vecinos cercanos,permutacion
+Dias de anticipacion de la reserva,0.004821492516952658,0.004821492516952658,K vecinos cercanos,permutacion
+Destino,-0.004564289408916039,0.004564289408916039,K vecinos cercanos,permutacion
+% de empresas certificadas,-0.004163564124571584,0.004163564124571584,K vecinos cercanos,permutacion

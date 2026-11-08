@@ -1,0 +1,13 @@
+modelo,real,predicho,casos
+Regresion logistica,No promotor,No promotor,245
+Regresion logistica,No promotor,Promotor,519
+Regresion logistica,Promotor,No promotor,172
+Regresion logistica,Promotor,Promotor,1314
+Arbol de decision,No promotor,No promotor,176
+Arbol de decision,No promotor,Promotor,588
+Arbol de decision,Promotor,No promotor,131
+Arbol de decision,Promotor,Promotor,1355
+K vecinos cercanos,No promotor,No promotor,203
+K vecinos cercanos,No promotor,Promotor,561
+K vecinos cercanos,Promotor,No promotor,131
+K vecinos cercanos,Promotor,Promotor,1355

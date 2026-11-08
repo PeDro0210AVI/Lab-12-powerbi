@@ -1,0 +1,577 @@
+id_pred_serie,alcance,modelo,fecha,conjunto,real,estimado,error,inferior,superior
+1,Todos los destinos,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),371318.0,379756.823713756,-8438.823713755992,,
+2,Todos los destinos,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),337946.0,341988.66055533825,-4042.660555338254,,
+3,Todos los destinos,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),389148.0,390223.9631243271,-1075.9631243271288,,
+4,Todos los destinos,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),388830.0,389276.4340862679,-446.4340862678946,,
+5,Todos los destinos,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),334035.0,335687.0117727122,-1652.011772712227,,
+6,Todos los destinos,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),298070.0,323620.5705205295,-25550.570520529523,,
+7,Todos los destinos,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),400218.0,420337.1312391651,-20119.131239165086,,
+8,Todos los destinos,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),401048.0,419189.5289963274,-18141.528996327426,,
+9,Todos los destinos,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),316261.0,330696.4934724053,-14435.493472405302,,
+10,Todos los destinos,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),318713.0,347259.1146598635,-28546.114659863524,,
+11,Todos los destinos,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),357403.0,364515.5874049351,-7112.587404935097,,
+12,Todos los destinos,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),432706.0,458030.0508314897,-25324.050831489672,,
+13,Todos los destinos,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,392689.6531700333,,365150.9843720043,422305.2115606559
+14,Todos los destinos,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,354571.949559916,,329706.4115831005,381312.7770584235
+15,Todos los destinos,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,405506.5934844126,,377069.09409211535,436088.769765793
+16,Todos los destinos,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,404685.17437090626,,376305.279727623,435205.40151376766
+17,Todos los destinos,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,348644.3769388524,,324194.52971902525,374938.1634428834
+18,Todos los destinos,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,329678.3472298886,,306558.555962268,354541.7686714592
+19,Todos los destinos,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,431773.75368027197,,401494.1822622437,464336.92592183745
+20,Todos los destinos,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,431112.5603283045,,400879.3572945316,463625.86721140024
+21,Todos los destinos,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,340069.2553148745,,316220.7670368968,365716.3300629132
+22,Todos los destinos,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,353446.7176272777,,328660.0902845055,380102.68327181216
+23,Todos los destinos,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,377190.194879455,,350738.4771761835,405636.827355371
+24,Todos los destinos,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,469572.3072109535,,436641.9864331623,504986.1409357852
+25,Todos los destinos,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),371318.0,380118.32130394137,-8800.321303941368,,
+26,Todos los destinos,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),337946.0,345613.35883201624,-7667.358832016238,,
+27,Todos los destinos,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),389148.0,385013.02447696583,4134.975523034169,,
+28,Todos los destinos,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),388830.0,381751.6534111109,7078.346588889079,,
+29,Todos los destinos,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),334035.0,327106.01681910985,6928.983180890151,,
+30,Todos los destinos,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),298070.0,315839.54780069797,-17769.54780069797,,
+31,Todos los destinos,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),400218.0,397529.7482113124,2688.251788687601,,
+32,Todos los destinos,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),401048.0,402302.12359188404,-1254.1235918840393,,
+33,Todos los destinos,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),316261.0,322567.77915405453,-6306.7791540545295,,
+34,Todos los destinos,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),318713.0,333957.30948457733,-15244.30948457733,,
+35,Todos los destinos,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),357403.0,348905.76284251484,8497.237157485157,,
+36,Todos los destinos,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),432706.0,431893.8963460307,812.1036539693014,,
+37,Todos los destinos,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,389070.1748213548,,367409.7763129277,410730.5733297819
+38,Todos los destinos,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,355275.24320970546,,324642.8138726819,385907.67254672904
+39,Todos los destinos,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,398653.59271550254,,361136.6819867177,436170.5034442874
+40,Todos los destinos,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,396839.75025201344,,353518.9532351593,440160.5472688676
+41,Todos los destinos,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,342826.8168521691,,294392.69336759107,391260.94033674715
+42,Todos los destinos,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,323806.8313974844,,270749.9074264962,376863.7553684726
+43,Todos los destinos,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,416390.1361264893,,359082.10837463685,473698.1638783418
+44,Todos los destinos,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,414186.1706365186,,352921.3119624715,475451.02931056573
+45,Todos los destinos,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,335287.67122844345,,270306.47570316214,400268.86675372475
+46,Todos los destinos,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,348478.8343564171,,279982.6400428736,416975.0286699606
+47,Todos los destinos,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,364170.6032233963,,292331.1885613699,436010.0178854227
+48,Todos los destinos,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,445492.83686969255,,370459.0154121228,520526.65832726227
+49,Todos los destinos,SARIMA,2025-01-01,Prueba (ultimos 12 meses),371318.0,381255.17577610334,-9937.175776103337,,
+50,Todos los destinos,SARIMA,2025-02-01,Prueba (ultimos 12 meses),337946.0,334065.7480900528,3880.2519099471974,,
+51,Todos los destinos,SARIMA,2025-03-01,Prueba (ultimos 12 meses),389148.0,399350.06946613936,-10202.069466139365,,
+52,Todos los destinos,SARIMA,2025-04-01,Prueba (ultimos 12 meses),388830.0,399636.0964831534,-10806.096483153407,,
+53,Todos los destinos,SARIMA,2025-05-01,Prueba (ultimos 12 meses),334035.0,332086.7326833732,1948.2673166267923,,
+54,Todos los destinos,SARIMA,2025-06-01,Prueba (ultimos 12 meses),298070.0,320198.7655746092,-22128.76557460922,,
+55,Todos los destinos,SARIMA,2025-07-01,Prueba (ultimos 12 meses),400218.0,403871.376142822,-3653.376142821973,,
+56,Todos los destinos,SARIMA,2025-08-01,Prueba (ultimos 12 meses),401048.0,417072.88472630957,-16024.884726309567,,
+57,Todos los destinos,SARIMA,2025-09-01,Prueba (ultimos 12 meses),316261.0,319505.4609617537,-3244.460961753677,,
+58,Todos los destinos,SARIMA,2025-10-01,Prueba (ultimos 12 meses),318713.0,331093.72655257676,-12380.726552576758,,
+59,Todos los destinos,SARIMA,2025-11-01,Prueba (ultimos 12 meses),357403.0,357344.7651618809,58.234838119125925,,
+60,Todos los destinos,SARIMA,2025-12-01,Prueba (ultimos 12 meses),432706.0,452089.9928343706,-19383.992834370583,,
+61,Todos los destinos,SARIMA,2026-01-01,Pronostico (12 meses futuros),,391272.7741820487,,372771.5808820031,410692.2084936964
+62,Todos los destinos,SARIMA,2026-02-01,Pronostico (12 meses futuros),,354087.19411218923,,337080.71935811226,371951.68348102027
+63,Todos los destinos,SARIMA,2026-03-01,Pronostico (12 meses futuros),,400096.4489274896,,380854.43572814367,420310.6316415634
+64,Todos los destinos,SARIMA,2026-04-01,Pronostico (12 meses futuros),,397472.7135254317,,378353.86292865354,417557.6714729119
+65,Todos los destinos,SARIMA,2026-05-01,Pronostico (12 meses futuros),,338696.2487924805,,322404.2871075714,355811.4874192808
+66,Todos los destinos,SARIMA,2026-06-01,Pronostico (12 meses futuros),,326165.7955439052,,310476.53403319936,342647.88002114475
+67,Todos los destinos,SARIMA,2026-07-01,Pronostico (12 meses futuros),,426387.05046774796,,405876.9264382301,447933.60983099556
+68,Todos los destinos,SARIMA,2026-08-01,Pronostico (12 meses futuros),,422465.29381141084,,402143.8001162314,443813.6915789243
+69,Todos los destinos,SARIMA,2026-09-01,Pronostico (12 meses futuros),,329767.64113049797,,313905.02623390115,346431.8441837949
+70,Todos los destinos,SARIMA,2026-10-01,Pronostico (12 meses futuros),,346185.5666393212,,329532.5580865273,363680.13905903546
+71,Todos los destinos,SARIMA,2026-11-01,Pronostico (12 meses futuros),,370389.7930296651,,352566.95966921846,389113.5996103257
+72,Todos los destinos,SARIMA,2026-12-01,Pronostico (12 meses futuros),,460653.29980270774,,438438.76606733195,483993.38526223094
+73,Antigua Guatemala,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),93247.0,88040.0700822608,5206.929917739195,,
+74,Antigua Guatemala,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),74615.0,80399.43799354296,-5784.437993542961,,
+75,Antigua Guatemala,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),100635.0,100665.78344131126,-30.783441311257775,,
+76,Antigua Guatemala,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),99739.0,96120.08328607217,3618.916713927829,,
+77,Antigua Guatemala,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),81775.0,78236.0125965204,3538.987403479594,,
+78,Antigua Guatemala,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),73211.0,78454.04456604666,-5243.044566046665,,
+79,Antigua Guatemala,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),93757.0,95420.10726414961,-1663.107264149614,,
+80,Antigua Guatemala,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),100729.0,102228.66567236681,-1499.665672366813,,
+81,Antigua Guatemala,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),75715.0,79748.67487355205,-4033.6748735520523,,
+82,Antigua Guatemala,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),76191.0,85441.48196891659,-9250.481968916589,,
+83,Antigua Guatemala,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),87843.0,84999.27844326766,2843.7215567323437,,
+84,Antigua Guatemala,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),113735.0,116420.11795417676,-2685.1179541767633,,
+85,Antigua Guatemala,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,93312.12954578614,,84834.24438572444,102637.24965569186
+86,Antigua Guatemala,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,82445.20356920557,,74954.63432317127,90684.34064078244
+87,Antigua Guatemala,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,105164.16314299604,,95609.45999325342,115673.71273038346
+88,Antigua Guatemala,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,101355.1814227337,,92146.54378192702,111484.0815467472
+89,Antigua Guatemala,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,82647.41381727629,,75138.47273395056,90906.75871027885
+90,Antigua Guatemala,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,80560.97009444502,,73241.59311560601,88611.80685015967
+91,Antigua Guatemala,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,99254.44152778033,,90236.66687196035,109173.40483076674
+92,Antigua Guatemala,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,106411.17749989034,,96743.17670532748,117045.34709877487
+93,Antigua Guatemala,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,82244.56110910332,,74772.22125878916,90463.64703568212
+94,Antigua Guatemala,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,86745.42855407849,,78864.16183107479,95414.3073396078
+95,Antigua Guatemala,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,89537.9853305409,,81403.00051355475,98485.93745284862
+96,Antigua Guatemala,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,120924.32124268566,,109937.72696449094,133008.85757559148
+97,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),93247.0,87754.12781070785,5492.872189292146,,
+98,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),74615.0,80846.363319263,-6231.363319262993,,
+99,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),100635.0,101043.07485799465,-408.0748579946521,,
+100,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),99739.0,96828.71736865811,2910.282631341892,,
+101,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),81775.0,78887.44845625476,2887.5515437452414,,
+102,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),73211.0,79024.13457533561,-5813.1345753356145,,
+103,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),93757.0,94007.03436648908,-250.03436648908246,,
+104,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),100729.0,101516.89111830141,-787.8911183014134,,
+105,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),75715.0,81221.69137305797,-5506.691373057969,,
+106,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),76191.0,85133.74420933431,-8942.744209334312,,
+107,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),87843.0,85647.44920522263,2195.550794777373,,
+108,Antigua Guatemala,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),113735.0,114683.65337382325,-948.6533738232538,,
+109,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,92430.38552592951,,84827.3327467942,100033.43830506482
+110,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,81423.73327867607,,70671.39292298447,92176.07363436767
+111,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,104555.2608782981,,91386.387172208,117724.1345843882
+112,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,101445.516351004,,86239.41079273338,116651.62190927462
+113,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,82334.28918385398,,65333.34633318873,99335.23203451923
+114,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,79299.12553449435,,60675.52573816328,97922.72533082543
+115,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,96820.68600723628,,76704.89914874575,116936.4728657268
+116,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,102709.45163211884,,81204.77092073562,124214.13234350206
+117,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,82473.67838726427,,59664.52004985834,105282.8367246702
+118,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,87387.6065640131,,63344.6426114724,111430.5705165538
+119,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,86767.0302739891,,61550.55694432842,111983.50360364979
+120,Antigua Guatemala,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,114684.43020705285,,88346.68279487264,141022.17761923306
+121,Antigua Guatemala,SARIMA,2025-01-01,Prueba (ultimos 12 meses),93247.0,88993.47325727838,4253.526742721617,,
+122,Antigua Guatemala,SARIMA,2025-02-01,Prueba (ultimos 12 meses),74615.0,79349.8893740249,-4734.889374024904,,
+123,Antigua Guatemala,SARIMA,2025-03-01,Prueba (ultimos 12 meses),100635.0,101156.9796257098,-521.979625709806,,
+124,Antigua Guatemala,SARIMA,2025-04-01,Prueba (ultimos 12 meses),99739.0,97135.08374447536,2603.916255524644,,
+125,Antigua Guatemala,SARIMA,2025-05-01,Prueba (ultimos 12 meses),81775.0,77229.06835752106,4545.931642478943,,
+126,Antigua Guatemala,SARIMA,2025-06-01,Prueba (ultimos 12 meses),73211.0,76367.47524491618,-3156.475244916175,,
+127,Antigua Guatemala,SARIMA,2025-07-01,Prueba (ultimos 12 meses),93757.0,94938.43531238748,-1181.4353123874753,,
+128,Antigua Guatemala,SARIMA,2025-08-01,Prueba (ultimos 12 meses),100729.0,99124.9303100872,1604.0696899127943,,
+129,Antigua Guatemala,SARIMA,2025-09-01,Prueba (ultimos 12 meses),75715.0,75814.02690465828,-99.02690465828346,,
+130,Antigua Guatemala,SARIMA,2025-10-01,Prueba (ultimos 12 meses),76191.0,85832.95538736063,-9641.955387360635,,
+131,Antigua Guatemala,SARIMA,2025-11-01,Prueba (ultimos 12 meses),87843.0,84656.10565367623,3186.8943463237665,,
+132,Antigua Guatemala,SARIMA,2025-12-01,Prueba (ultimos 12 meses),113735.0,110526.01597925118,3208.984020748816,,
+133,Antigua Guatemala,SARIMA,2026-01-01,Pronostico (12 meses futuros),,97498.94826233294,,85952.17195403906,110596.91333157019
+134,Antigua Guatemala,SARIMA,2026-02-01,Pronostico (12 meses futuros),,78128.1648149789,,68735.20837697784,88804.70840910381
+135,Antigua Guatemala,SARIMA,2026-03-01,Pronostico (12 meses futuros),,105346.62091232357,,92454.2439016155,120036.78867845776
+136,Antigua Guatemala,SARIMA,2026-04-01,Pronostico (12 meses futuros),,104408.76733453297,,91411.77995113432,119253.67498744745
+137,Antigua Guatemala,SARIMA,2026-05-01,Pronostico (12 meses futuros),,85604.68716715652,,74772.17796882566,98006.54018720733
+138,Antigua Guatemala,SARIMA,2026-06-01,Pronostico (12 meses futuros),,76648.60183509991,,66794.62477190465,87956.3016236427
+139,Antigua Guatemala,SARIMA,2026-07-01,Pronostico (12 meses futuros),,98160.67503345358,,85346.60196534288,112898.67318837157
+140,Antigua Guatemala,SARIMA,2026-08-01,Pronostico (12 meses futuros),,105447.1002560998,,91476.72161449105,121551.0433274924
+141,Antigua Guatemala,SARIMA,2026-09-01,Pronostico (12 meses futuros),,79268.3510665923,,68614.85040041921,91575.96998532745
+142,Antigua Guatemala,SARIMA,2026-10-01,Pronostico (12 meses futuros),,79784.04595252314,,68911.40611113777,92372.13906632947
+143,Antigua Guatemala,SARIMA,2026-11-01,Pronostico (12 meses futuros),,91955.39753844937,,79254.29758514866,106691.9447159264
+144,Antigua Guatemala,SARIMA,2026-12-01,Pronostico (12 meses futuros),,119060.21513768761,,102399.06505356748,138432.26811902033
+145,Ciudad de Guatemala,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),117441.0,123456.48059177662,-6015.480591776621,,
+146,Ciudad de Guatemala,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),119637.0,116072.67767092214,3564.322329077855,,
+147,Ciudad de Guatemala,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),123372.0,121320.79883800165,2051.201161998353,,
+148,Ciudad de Guatemala,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),126111.0,130979.2207788056,-4868.220778805597,,
+149,Ciudad de Guatemala,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),119337.0,121483.42738593403,-2146.427385934032,,
+150,Ciudad de Guatemala,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),101320.0,121967.16410604517,-20647.164106045166,,
+151,Ciudad de Guatemala,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),125590.0,141955.16691212475,-16365.166912124754,,
+152,Ciudad de Guatemala,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),122016.0,134776.11763710526,-12760.117637105257,,
+153,Ciudad de Guatemala,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),115762.0,122041.82326363101,-6279.823263631013,,
+154,Ciudad de Guatemala,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),112907.0,125097.02875791304,-12190.028757913038,,
+155,Ciudad de Guatemala,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),123264.0,131384.56969700594,-8120.569697005936,,
+156,Ciudad de Guatemala,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),130699.0,145275.53475946528,-14576.534759465285,,
+157,Ciudad de Guatemala,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,124399.65701112107,,110341.32004605433,140249.13475772706
+158,Ciudad de Guatemala,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,119328.0955952277,,105842.89300236655,134531.41722104503
+159,Ciudad de Guatemala,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,124303.80587141587,,110256.30099104161,140141.071442022
+160,Ciudad de Guatemala,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,132378.93193320147,,117418.86148842356,149245.03097403064
+161,Ciudad de Guatemala,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,123398.64323193532,,109453.43028467201,139120.58408657197
+162,Ciudad de Guatemala,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,118805.027290229,,105378.93635944229,133941.70597136932
+163,Ciudad de Guatemala,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,140469.16383793508,,124594.82072573244,158366.0209501269
+164,Ciudad de Guatemala,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,134135.19067316278,,118976.64639206222,151225.05065100009
+165,Ciudad de Guatemala,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,122885.84194912233,,108998.58039339106,138542.44795705882
+166,Ciudad de Guatemala,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,124406.84937498099,,110347.69960482178,140257.2434843301
+167,Ciudad de Guatemala,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,131930.790629863,,117021.3643878238,148739.79300511244
+168,Ciudad de Guatemala,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,144358.13307013043,,128044.29967936463,162750.47491904788
+169,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),117441.0,123944.73486680967,-6503.734866809667,,
+170,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),119637.0,120576.25392908581,-939.2539290858113,,
+171,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),123372.0,121368.77113131066,2003.2288686893444,,
+172,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),126111.0,127623.21245403714,-1512.2124540371442,,
+173,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),119337.0,115199.54772994062,4137.452270059381,,
+174,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),101320.0,118542.1771385013,-17222.177138501298,,
+175,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),125590.0,133114.0731573592,-7524.073157359206,,
+176,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),122016.0,130998.58795722731,-8982.587957227312,,
+177,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),115762.0,118246.42498788623,-2484.424987886232,,
+178,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),112907.0,119486.71118349757,-6579.711183497566,,
+179,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),123264.0,124542.71100212658,-1278.7110021265835,,
+180,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),130699.0,140913.94288583286,-10214.942885832861,,
+181,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,123817.72550461521,,112016.97590736888,135618.47510186155
+182,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,122437.55235322623,,105748.77222663163,139126.33247982082
+183,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,124304.48958433444,,103864.99171450583,144743.98745416306
+184,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,129554.87727164943,,105953.37807715677,153156.3764661421
+185,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,119286.90076074573,,92899.62247584967,145674.1790456418
+186,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,115586.30059327428,,86680.48549766667,144492.1156888819
+187,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,137964.5678482543,,106742.71912979486,169186.4165667137
+188,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,130993.11714588066,,97615.55689269147,164370.67739906986
+189,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,119469.58422744267,,84067.33543570367,154871.83301918168
+190,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,121938.23336199505,,84620.98653738198,159255.48018660813
+191,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,127619.1984028087,,88480.53974380501,166757.8570618124
+192,Ciudad de Guatemala,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,139351.69559467517,,98472.69985501794,180230.6913343324
+193,Ciudad de Guatemala,SARIMA,2025-01-01,Prueba (ultimos 12 meses),117441.0,121047.5190776375,-3606.519077637495,,
+194,Ciudad de Guatemala,SARIMA,2025-02-01,Prueba (ultimos 12 meses),119637.0,114785.93983285908,4851.060167140924,,
+195,Ciudad de Guatemala,SARIMA,2025-03-01,Prueba (ultimos 12 meses),123372.0,124793.19415403718,-1421.1941540371772,,
+196,Ciudad de Guatemala,SARIMA,2025-04-01,Prueba (ultimos 12 meses),126111.0,135740.3900350696,-9629.390035069606,,
+197,Ciudad de Guatemala,SARIMA,2025-05-01,Prueba (ultimos 12 meses),119337.0,118631.78193571432,705.2180642856838,,
+198,Ciudad de Guatemala,SARIMA,2025-06-01,Prueba (ultimos 12 meses),101320.0,120986.16908097378,-19666.169080973777,,
+199,Ciudad de Guatemala,SARIMA,2025-07-01,Prueba (ultimos 12 meses),125590.0,136510.37422827157,-10920.374228271568,,
+200,Ciudad de Guatemala,SARIMA,2025-08-01,Prueba (ultimos 12 meses),122016.0,134488.68799660885,-12472.687996608845,,
+201,Ciudad de Guatemala,SARIMA,2025-09-01,Prueba (ultimos 12 meses),115762.0,117899.92237577109,-2137.922375771086,,
+202,Ciudad de Guatemala,SARIMA,2025-10-01,Prueba (ultimos 12 meses),112907.0,117783.08366209717,-4876.083662097168,,
+203,Ciudad de Guatemala,SARIMA,2025-11-01,Prueba (ultimos 12 meses),123264.0,130024.15204503777,-6760.152045037772,,
+204,Ciudad de Guatemala,SARIMA,2025-12-01,Prueba (ultimos 12 meses),130699.0,144114.34581293995,-13415.345812939951,,
+205,Ciudad de Guatemala,SARIMA,2026-01-01,Pronostico (12 meses futuros),,120000.48866948546,,101898.62895827266,141318.06706459355
+206,Ciudad de Guatemala,SARIMA,2026-02-01,Pronostico (12 meses futuros),,122813.95959558341,,100735.42325458235,149731.52625195798
+207,Ciudad de Guatemala,SARIMA,2026-03-01,Pronostico (12 meses futuros),,127029.10535015563,,102642.9071848375,157209.04686577912
+208,Ciudad de Guatemala,SARIMA,2026-04-01,Pronostico (12 meses futuros),,130101.52200840286,,104347.83090896747,162211.38361437953
+209,Ciudad de Guatemala,SARIMA,2026-05-01,Pronostico (12 meses futuros),,123267.62607204403,,98466.1596035931,154316.03810496125
+210,Ciudad de Guatemala,SARIMA,2026-06-01,Pronostico (12 meses futuros),,104742.01134301639,,83464.66189469822,131443.51982185958
+211,Ciudad de Guatemala,SARIMA,2026-07-01,Pronostico (12 meses futuros),,129899.6806885248,,103347.05940365135,163274.37994219823
+212,Ciudad de Guatemala,SARIMA,2026-08-01,Pronostico (12 meses futuros),,126245.71704008276,,100326.01572468072,158861.89594832895
+213,Ciudad de Guatemala,SARIMA,2026-09-01,Pronostico (12 meses futuros),,119801.09013024502,,95121.30117056127,150884.1975433041
+214,Ciudad de Guatemala,SARIMA,2026-10-01,Pronostico (12 meses futuros),,116862.97079276365,,92721.6259429193,147289.8453152422
+215,Ciudad de Guatemala,SARIMA,2026-11-01,Pronostico (12 meses futuros),,127594.48856971443,,101172.83970767859,160916.24551022044
+216,Ciudad de Guatemala,SARIMA,2026-12-01,Pronostico (12 meses futuros),,135298.6645835026,,107220.75028757418,170729.34659552175
+217,Lago de Atitlan,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),65935.0,63830.93289939729,2104.0671006027114,,
+218,Lago de Atitlan,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),54213.0,57487.71194345287,-3274.711943452872,,
+219,Lago de Atitlan,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),65406.0,66001.05929296295,-595.0592929629493,,
+220,Lago de Atitlan,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),67753.0,61042.70890524421,6710.29109475579,,
+221,Lago de Atitlan,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),52748.0,52281.723362717355,466.2766372826445,,
+222,Lago de Atitlan,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),47400.0,48155.15297662607,-755.1529766260719,,
+223,Lago de Atitlan,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),73189.0,71057.82740297925,2131.172597020748,,
+224,Lago de Atitlan,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),69096.0,71457.02634088918,-2361.026340889177,,
+225,Lago de Atitlan,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),46578.0,50978.57341199528,-4400.573411995283,,
+226,Lago de Atitlan,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),52512.0,51750.60654783615,761.3934521638512,,
+227,Lago de Atitlan,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),58258.0,54968.196885382844,3289.803114617156,,
+228,Lago de Atitlan,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),71782.0,74140.05268158452,-2358.0526815845224,,
+229,Lago de Atitlan,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,68540.32684955213,,61346.38268529766,76577.88770925057
+230,Lago de Atitlan,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,60339.3882294206,,54006.208774637154,67415.2445525964
+231,Lago de Atitlan,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,70139.28777991691,,62777.51780883315,78364.35497903355
+232,Lago de Atitlan,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,66734.62981990069,,59730.210337041244,74560.44089028373
+233,Lago de Atitlan,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,55809.44390489555,,49951.724198200944,62354.08444791704
+234,Lago de Atitlan,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,51088.18045510536,,45726.00121639071,57079.1696798941
+235,Lago de Atitlan,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,76245.49206843563,,68242.81921978672,85186.61929887443
+236,Lago de Atitlan,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,75472.84229265971,,67551.26621726746,84323.3627244227
+237,Lago de Atitlan,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,53085.96816554767,,47514.102543625326,59311.23319620882
+238,Lago de Atitlan,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,55321.63383094819,,49515.11432413651,61809.07004861051
+239,Lago de Atitlan,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,59404.0815744696,,53169.071243783605,66370.25671421377
+240,Lago de Atitlan,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,78331.66015225621,,70110.02457900289,87517.42734442255
+241,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),65935.0,64427.683907341445,1507.3160926585551,,
+242,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),54213.0,58669.67241001515,-4456.672410015148,,
+243,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),65406.0,65932.53575914785,-526.5357591478532,,
+244,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),67753.0,61523.1900131914,6229.809986808599,,
+245,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),52748.0,53958.55072058282,-1210.550720582818,,
+246,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),47400.0,50168.88234945906,-2768.8823494590615,,
+247,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),73189.0,70472.70635907017,2716.2936409298272,,
+248,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),69096.0,70819.86827196793,-1723.8682719679346,,
+249,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),46578.0,52705.034118533644,-6127.034118533644,,
+250,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),52512.0,53308.00716187244,-796.0071618724396,,
+251,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),58258.0,56168.56492220842,2089.4350777915824,,
+252,Lago de Atitlan,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),71782.0,73327.07090636526,-1545.0709063652612,,
+253,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,68909.12128287509,,62991.824838147004,74826.41772760317
+254,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,60263.63222735753,,51895.31134264098,68631.95311207409
+255,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,67576.426099546,,57327.36801383028,77825.48418526172
+256,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,64683.07437481734,,52848.481485361175,76517.6672642735
+257,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,56161.81594132352,,42930.3388478937,69393.29303475334
+258,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,50519.7899546169,,36025.43300824809,65014.14690098571
+259,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,72167.77188944219,,56512.07706284501,87823.46671603936
+260,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,72301.40628606267,,55564.76451662957,89038.04805549578
+261,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,54096.66873887067,,36344.779404686415,71848.55807305493
+262,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,54661.227301536346,,35949.092945778946,73373.36165729375
+263,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,57408.37234636391,,37782.92026589688,77033.82442683095
+264,Lago de Atitlan,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,74501.49834606586,,54003.382174634404,94999.6145174973
+265,Lago de Atitlan,SARIMA,2025-01-01,Prueba (ultimos 12 meses),65935.0,68616.8563381823,-2681.856338182304,,
+266,Lago de Atitlan,SARIMA,2025-02-01,Prueba (ultimos 12 meses),54213.0,62325.271495904504,-8112.271495904504,,
+267,Lago de Atitlan,SARIMA,2025-03-01,Prueba (ultimos 12 meses),65406.0,62884.79621367725,2521.2037863227524,,
+268,Lago de Atitlan,SARIMA,2025-04-01,Prueba (ultimos 12 meses),67753.0,57361.12504040217,10391.87495959783,,
+269,Lago de Atitlan,SARIMA,2025-05-01,Prueba (ultimos 12 meses),52748.0,51704.037731519566,1043.9622684804344,,
+270,Lago de Atitlan,SARIMA,2025-06-01,Prueba (ultimos 12 meses),47400.0,46155.43219070726,1244.567809292741,,
+271,Lago de Atitlan,SARIMA,2025-07-01,Prueba (ultimos 12 meses),73189.0,69459.87133344197,3729.1286665580265,,
+272,Lago de Atitlan,SARIMA,2025-08-01,Prueba (ultimos 12 meses),69096.0,70743.23760544977,-1647.2376054497727,,
+273,Lago de Atitlan,SARIMA,2025-09-01,Prueba (ultimos 12 meses),46578.0,50390.47434284963,-3812.4743428496295,,
+274,Lago de Atitlan,SARIMA,2025-10-01,Prueba (ultimos 12 meses),52512.0,46413.145168442315,6098.8548315576845,,
+275,Lago de Atitlan,SARIMA,2025-11-01,Prueba (ultimos 12 meses),58258.0,52529.86853181946,5728.131468180538,,
+276,Lago de Atitlan,SARIMA,2025-12-01,Prueba (ultimos 12 meses),71782.0,77395.63363324798,-5613.633633247984,,
+277,Lago de Atitlan,SARIMA,2026-01-01,Pronostico (12 meses futuros),,68981.46428271761,,58344.94150288486,81557.06890806575
+278,Lago de Atitlan,SARIMA,2026-02-01,Pronostico (12 meses futuros),,57577.35745607884,,48216.650650511,68755.33756283305
+279,Lago de Atitlan,SARIMA,2026-03-01,Pronostico (12 meses futuros),,69693.8555615776,,58166.04796501642,83506.33527585356
+280,Lago de Atitlan,SARIMA,2026-04-01,Pronostico (12 meses futuros),,72246.71935713985,,60151.4329770757,86774.13320907188
+281,Lago de Atitlan,SARIMA,2026-05-01,Pronostico (12 meses futuros),,56255.22709657943,,46734.15112952611,67716.01707104367
+282,Lago de Atitlan,SARIMA,2026-06-01,Pronostico (12 meses futuros),,50553.33015721534,,41907.561660648345,60982.76990389044
+283,Lago de Atitlan,SARIMA,2026-07-01,Pronostico (12 meses futuros),,78058.63238531581,,64572.66067147645,94361.1433461869
+284,Lago de Atitlan,SARIMA,2026-08-01,Pronostico (12 meses futuros),,73693.29578525982,,60834.73909999512,89269.74823985444
+285,Lago de Atitlan,SARIMA,2026-09-01,Pronostico (12 meses futuros),,49677.002924400615,,40924.638899507125,60301.194730410396
+286,Lago de Atitlan,SARIMA,2026-10-01,Pronostico (12 meses futuros),,56006.05183695896,,46044.70162577129,68122.44908996286
+287,Lago de Atitlan,SARIMA,2026-11-01,Pronostico (12 meses futuros),,62134.36702247827,,50980.129659927115,75729.10447732186
+288,Lago de Atitlan,SARIMA,2026-12-01,Pronostico (12 meses futuros),,76557.94125087207,,62689.16579395859,93494.91725309927
+289,Quetzaltenango,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),18773.0,18948.744173873547,-175.74417387354697,,
+290,Quetzaltenango,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),15523.0,16810.535792617728,-1287.5357926177276,,
+291,Quetzaltenango,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),22000.0,20574.844348960698,1425.155651039302,,
+292,Quetzaltenango,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),17434.0,21319.432669677364,-3885.432669677364,,
+293,Quetzaltenango,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),14636.0,15826.378286926998,-1190.378286926998,,
+294,Quetzaltenango,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),14472.0,15133.174275046258,-661.1742750462581,,
+295,Quetzaltenango,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),17897.0,21147.706799133925,-3250.7067991339245,,
+296,Quetzaltenango,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),19319.0,20486.527039110595,-1167.527039110595,,
+297,Quetzaltenango,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),15406.0,14141.381953298458,1264.618046701542,,
+298,Quetzaltenango,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),15257.0,16258.738423824008,-1001.7384238240084,,
+299,Quetzaltenango,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),15967.0,17713.077824552947,-1746.0778245529473,,
+300,Quetzaltenango,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),23163.0,22560.2132438197,602.7867561802996,,
+301,Quetzaltenango,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,19730.918891038593,,17254.521931651918,22562.732356588207
+302,Quetzaltenango,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,17199.215895633017,,15040.569043806714,19667.675243072197
+303,Quetzaltenango,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,21836.68231613429,,19095.994262557215,24970.718362161708
+304,Quetzaltenango,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,21159.70262944169,,18503.981244013736,24196.57745336554
+305,Quetzaltenango,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,16198.333035655627,,14165.305435767763,18523.14405247352
+306,Quetzaltenango,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,15619.180023030804,,13658.841017495994,17860.87006059671
+307,Quetzaltenango,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,21170.01115511611,,18512.995962654793,24208.36547535617
+308,Quetzaltenango,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,21070.555406881253,,18426.022750782406,24094.635676904338
+309,Quetzaltenango,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,15078.909328231684,,13186.37885778005,17243.058839833095
+310,Quetzaltenango,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,16701.711845190945,,14605.50595339296,19098.768604793877
+311,Quetzaltenango,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,18013.782773929048,,15752.900899407196,20599.15008025691
+312,Quetzaltenango,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,23701.982275213613,,20727.183323278627,27103.729195254557
+313,Quetzaltenango,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),18773.0,18785.318633177547,-12.318633177546872,,
+314,Quetzaltenango,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),15523.0,16841.145930859846,-1318.145930859846,,
+315,Quetzaltenango,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),22000.0,20098.02709579924,1901.9729042007602,,
+316,Quetzaltenango,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),17434.0,20654.102192556496,-3220.1021925564964,,
+317,Quetzaltenango,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),14636.0,15982.926737707334,-1346.9267377073338,,
+318,Quetzaltenango,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),14472.0,15418.207242739463,-946.2072427394633,,
+319,Quetzaltenango,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),17897.0,20608.814214901467,-2711.8142149014675,,
+320,Quetzaltenango,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),19319.0,19969.856104783237,-650.8561047832372,,
+321,Quetzaltenango,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),15406.0,14563.885946595117,842.1140534048827,,
+322,Quetzaltenango,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),15257.0,16354.291757415145,-1097.2917574151452,,
+323,Quetzaltenango,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),15967.0,17579.880593767695,-1612.8805937676952,,
+324,Quetzaltenango,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),23163.0,21730.176321355677,1432.823678644323,,
+325,Quetzaltenango,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,19502.272866276384,,17514.690298741112,21489.855433811656
+326,Quetzaltenango,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,17231.791227049176,,14420.925003704455,20042.657450393897
+327,Quetzaltenango,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,21293.56258843901,,17850.96859722972,24736.1565796483
+328,Quetzaltenango,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,20569.129263917446,,16593.964128846903,24544.29439898799
+329,Quetzaltenango,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,16366.146212935777,,11921.776481033341,20810.51594483821
+330,Quetzaltenango,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,15901.401590217902,,11032.8384781056,20769.964702330202
+331,Quetzaltenango,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,20650.705444724645,,15392.056260819072,25909.354628630215
+332,Quetzaltenango,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,20526.888879833037,,14905.156433143597,26148.62132652248
+333,Quetzaltenango,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,15494.183482867555,,9531.435780261738,21456.93118547337
+334,Quetzaltenango,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,16799.6721720859,,10514.384221028999,23084.9601231428
+335,Quetzaltenango,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,17896.288292518275,,11304.222676152556,24488.353908883993
+336,Quetzaltenango,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,22808.03757635312,,15922.849593934538,29693.2255587717
+337,Quetzaltenango,SARIMA,2025-01-01,Prueba (ultimos 12 meses),18773.0,18598.27772064232,174.72227935768024,,
+338,Quetzaltenango,SARIMA,2025-02-01,Prueba (ultimos 12 meses),15523.0,15327.968612554672,195.0313874453277,,
+339,Quetzaltenango,SARIMA,2025-03-01,Prueba (ultimos 12 meses),22000.0,19394.63533455081,2605.3646654491895,,
+340,Quetzaltenango,SARIMA,2025-04-01,Prueba (ultimos 12 meses),17434.0,18663.091890942236,-1229.0918909422362,,
+341,Quetzaltenango,SARIMA,2025-05-01,Prueba (ultimos 12 meses),14636.0,14059.356002871173,576.6439971288273,,
+342,Quetzaltenango,SARIMA,2025-06-01,Prueba (ultimos 12 meses),14472.0,13820.562491093075,651.4375089069254,,
+343,Quetzaltenango,SARIMA,2025-07-01,Prueba (ultimos 12 meses),17897.0,20152.71247960961,-2255.7124796096105,,
+344,Quetzaltenango,SARIMA,2025-08-01,Prueba (ultimos 12 meses),19319.0,18660.630869553843,658.3691304461572,,
+345,Quetzaltenango,SARIMA,2025-09-01,Prueba (ultimos 12 meses),15406.0,12656.566413457404,2749.4335865425965,,
+346,Quetzaltenango,SARIMA,2025-10-01,Prueba (ultimos 12 meses),15257.0,13917.117548949262,1339.8824510507384,,
+347,Quetzaltenango,SARIMA,2025-11-01,Prueba (ultimos 12 meses),15967.0,15218.330122224714,748.6698777752863,,
+348,Quetzaltenango,SARIMA,2025-12-01,Prueba (ultimos 12 meses),23163.0,20177.04376082851,2985.95623917149,,
+349,Quetzaltenango,SARIMA,2026-01-01,Pronostico (12 meses futuros),,20577.40082431656,,17830.094769976648,23748.018737263184
+350,Quetzaltenango,SARIMA,2026-02-01,Pronostico (12 meses futuros),,16891.873379088545,,14369.03536659359,19857.65773244134
+351,Quetzaltenango,SARIMA,2026-03-01,Pronostico (12 meses futuros),,21657.142009205116,,18327.04889678612,25592.325455579903
+352,Quetzaltenango,SARIMA,2026-04-01,Pronostico (12 meses futuros),,20683.10025956397,,17472.112558817425,24484.196453467073
+353,Quetzaltenango,SARIMA,2026-05-01,Pronostico (12 meses futuros),,15600.331278496622,,13169.507736443267,18479.83545545704
+354,Quetzaltenango,SARIMA,2026-06-01,Pronostico (12 meses futuros),,15006.78562706207,,12664.796236246779,17781.858519923255
+355,Quetzaltenango,SARIMA,2026-07-01,Pronostico (12 meses futuros),,20684.00860849438,,17453.742836279172,24512.11846819412
+356,Quetzaltenango,SARIMA,2026-08-01,Pronostico (12 meses futuros),,20453.74239309465,,17258.38293846169,24240.717069195303
+357,Quetzaltenango,SARIMA,2026-09-01,Pronostico (12 meses futuros),,15120.111640441248,,12757.619888205067,17920.09622663027
+358,Quetzaltenango,SARIMA,2026-10-01,Pronostico (12 meses futuros),,16420.11679421257,,13854.307144546541,19461.112903196463
+359,Quetzaltenango,SARIMA,2026-11-01,Pronostico (12 meses futuros),,17454.49357756587,,14726.952342521905,20687.19575941244
+360,Quetzaltenango,SARIMA,2026-12-01,Pronostico (12 meses futuros),,22197.434266029122,,18728.672250423704,26308.650255948432
+361,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),22218.0,23635.11121446558,-1417.1112144655817,,
+362,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),20219.0,21692.807414829396,-1473.8074148293963,,
+363,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),23794.0,23882.011162974293,-88.01116297429326,,
+364,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),21266.0,23762.104183484404,-2496.1041834844036,,
+365,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),21068.0,20728.687360720498,339.31263927950204,,
+366,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),18365.0,18851.9199628114,-486.9199628114002,,
+367,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),26484.0,26496.079725012016,-12.079725012015842,,
+368,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),27520.0,26506.8785859506,1013.1214140494012,,
+369,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),17853.0,18090.74664810414,-237.74664810414106,,
+370,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),17342.0,21999.382690643033,-4657.382690643033,,
+371,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),21123.0,23307.93571239465,-2184.93571239465,,
+372,Rio Dulce y Livingston,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),26035.0,29828.407873062974,-3793.4078730629735,,
+373,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,23883.556226485034,,21443.90437314766,26600.76486528101
+374,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,21874.15339822597,,19639.75754979742,24362.754258850626
+375,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,24486.378135712454,,21985.149372549222,27272.169228640272
+376,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,23718.632109299684,,21295.826885682596,26417.077493925626
+377,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,21359.407100177254,,19177.591434872375,23789.44578209691
+378,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,19220.688414178476,,17257.33807943765,21407.407180318343
+379,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,27188.58626641666,,24411.332986148,30281.80491355569
+380,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,27459.053536674764,,24654.17262964504,30583.04297842611
+381,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,18504.38623680716,,16614.204567486253,20609.612010618548
+382,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,21273.413474328852,,19100.381865580996,23693.668746239513
+383,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,23338.410438422794,,20954.44400812599,25993.5983785138
+384,Rio Dulce y Livingston,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,29588.058252879156,,26565.70427557473,32954.26246164635
+385,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),22218.0,23373.24385539685,-1155.2438553968495,,
+386,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),20219.0,21660.68387590681,-1441.6838759068087,,
+387,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),23794.0,23541.098683184307,252.90131681569255,,
+388,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),21266.0,23538.164373230735,-2272.164373230735,,
+389,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),21068.0,20826.650115532768,241.3498844672322,,
+390,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),18365.0,19220.77868734741,-855.7786873474106,,
+391,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),26484.0,25842.0427468029,641.9572531970989,,
+392,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),27520.0,25835.467741604098,1684.5322583959023,,
+393,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),17853.0,18491.63936087471,-638.6393608747094,,
+394,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),17342.0,21913.880316338153,-4571.880316338153,,
+395,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),21123.0,23057.08476906296,-1934.0847690629598,,
+396,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),26035.0,28701.185436966505,-2666.185436966505,,
+397,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,23668.967642553238,,21754.785084492018,25583.15020061446
+398,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,21884.753916242,,19177.690981773798,24591.816850710202
+399,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,24188.975061671932,,20873.51361614774,27504.436507196126
+400,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,23554.87008643108,,19726.50497030864,27383.235202553522
+401,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,21471.971401786777,,17191.72908061745,25752.213722956105
+402,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,19591.6113840387,,14902.840842253278,24280.381925824124
+403,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,26587.400538243248,,21522.949525635806,31651.85155085069
+404,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,26841.223803433502,,21427.0979344971,32255.349672369906
+405,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,18916.87986598472,,13174.33219180106,24659.427540168377
+406,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,21355.660518834222,,15302.483777993264,27408.83725967518
+407,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,23158.15715272126,,16809.531827389506,29506.782478053017
+408,Rio Dulce y Livingston,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,28619.056004709288,,21988.1331136609,35249.978895757675
+409,Rio Dulce y Livingston,SARIMA,2025-01-01,Prueba (ultimos 12 meses),22218.0,23551.126914985984,-1333.1269149859836,,
+410,Rio Dulce y Livingston,SARIMA,2025-02-01,Prueba (ultimos 12 meses),20219.0,21200.568883085114,-981.5688830851141,,
+411,Rio Dulce y Livingston,SARIMA,2025-03-01,Prueba (ultimos 12 meses),23794.0,23088.457836524707,705.5421634752929,,
+412,Rio Dulce y Livingston,SARIMA,2025-04-01,Prueba (ultimos 12 meses),21266.0,24239.25292189339,-2973.2529218933887,,
+413,Rio Dulce y Livingston,SARIMA,2025-05-01,Prueba (ultimos 12 meses),21068.0,20461.502770071085,606.4972299289147,,
+414,Rio Dulce y Livingston,SARIMA,2025-06-01,Prueba (ultimos 12 meses),18365.0,19090.203193899266,-725.2031938992659,,
+415,Rio Dulce y Livingston,SARIMA,2025-07-01,Prueba (ultimos 12 meses),26484.0,25985.7807396639,498.2192603361,,
+416,Rio Dulce y Livingston,SARIMA,2025-08-01,Prueba (ultimos 12 meses),27520.0,25945.45281209034,1574.5471879096585,,
+417,Rio Dulce y Livingston,SARIMA,2025-09-01,Prueba (ultimos 12 meses),17853.0,17228.6701699806,624.3298300194001,,
+418,Rio Dulce y Livingston,SARIMA,2025-10-01,Prueba (ultimos 12 meses),17342.0,21573.669244146386,-4231.669244146386,,
+419,Rio Dulce y Livingston,SARIMA,2025-11-01,Prueba (ultimos 12 meses),21123.0,22920.054817147826,-1797.0548171478258,,
+420,Rio Dulce y Livingston,SARIMA,2025-12-01,Prueba (ultimos 12 meses),26035.0,28387.727482081318,-2352.727482081318,,
+421,Rio Dulce y Livingston,SARIMA,2026-01-01,Pronostico (12 meses futuros),,23332.191951177025,,20399.978193812778,26685.870743316842
+422,Rio Dulce y Livingston,SARIMA,2026-02-01,Pronostico (12 meses futuros),,21177.447786770746,,18468.82290790293,24283.31772944186
+423,Rio Dulce y Livingston,SARIMA,2026-03-01,Pronostico (12 meses futuros),,23893.156899289377,,20827.434828969588,27410.142021906555
+424,Rio Dulce y Livingston,SARIMA,2026-04-01,Pronostico (12 meses futuros),,23429.48071006804,,20417.06622044928,26886.358716593855
+425,Rio Dulce y Livingston,SARIMA,2026-05-01,Pronostico (12 meses futuros),,21144.563126320558,,18420.717128917986,24271.180468923292
+426,Rio Dulce y Livingston,SARIMA,2026-06-01,Pronostico (12 meses futuros),,19223.71254991937,,16742.624909584214,22072.472279444082
+427,Rio Dulce y Livingston,SARIMA,2026-07-01,Pronostico (12 meses futuros),,26940.597258056223,,23456.99381846507,30941.551429725343
+428,Rio Dulce y Livingston,SARIMA,2026-08-01,Pronostico (12 meses futuros),,27275.552963626873,,23742.027699116414,31334.97268640209
+429,Rio Dulce y Livingston,SARIMA,2026-09-01,Pronostico (12 meses futuros),,17877.70760797479,,15557.342532016932,20544.15326129632
+430,Rio Dulce y Livingston,SARIMA,2026-10-01,Pronostico (12 meses futuros),,20151.25247149635,,17530.936004438678,23163.22277756155
+431,Rio Dulce y Livingston,SARIMA,2026-11-01,Pronostico (12 meses futuros),,22669.825926484686,,19716.514898594258,26065.509557866062
+432,Rio Dulce y Livingston,SARIMA,2026-12-01,Pronostico (12 meses futuros),,28103.720224120643,,24435.362377481757,32322.790152827863
+433,Semuc Champey,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),13117.0,14490.062984818927,-1373.0629848189274,,
+434,Semuc Champey,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),12590.0,12213.761917393518,376.23808260648184,,
+435,Semuc Champey,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),13918.0,14084.000508219564,-166.00050821956393,,
+436,Semuc Champey,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),15166.0,13812.36637311129,1353.6336268887098,,
+437,Semuc Champey,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),11353.0,12764.48716056003,-1411.4871605600292,,
+438,Semuc Champey,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),10244.0,10058.05398283414,185.9460171658593,,
+439,Semuc Champey,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),15259.0,16514.168377447244,-1255.168377447244,,
+440,Semuc Champey,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),15270.0,15972.90207895583,-702.9020789558308,,
+441,Semuc Champey,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),11382.0,11520.885733054769,-138.88573305476893,,
+442,Semuc Champey,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),11220.0,11750.676302742275,-530.6763027422749,,
+443,Semuc Champey,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),13003.0,12600.880042896453,402.11995710354677,,
+444,Semuc Champey,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),15076.0,16032.11578983592,-956.1157898359197,,
+445,Semuc Champey,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,14945.755064331835,,13580.27006388843,16448.538459995965
+446,Semuc Champey,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,13013.677682974143,,11824.71254871241,14322.192284900859
+447,Semuc Champey,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,14848.933358177974,,13492.294253234753,16341.981410815162
+448,Semuc Champey,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,14951.176075981493,,13585.195797108663,16454.504549914316
+449,Semuc Champey,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,13108.008478844044,,11910.425025448496,14426.007964814617
+450,Semuc Champey,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,10684.627605155945,,9708.450846781092,11758.958134779192
+451,Semuc Champey,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,17121.05709506929,,15556.830560215567,18842.565323187566
+452,Semuc Champey,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,16701.449213173815,,15175.559200384709,18380.7662134225
+453,Semuc Champey,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,12145.784556336212,,11036.112508393031,13367.033217244321
+454,Semuc Champey,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,12282.927471863819,,11160.725672612394,13517.965740282607
+455,Semuc Champey,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,13429.754527690902,,12202.775476564679,14780.10531459919
+456,Semuc Champey,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,16694.41437013517,,15169.167079818659,18373.024022694557
+457,Semuc Champey,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),13117.0,14329.960467574256,-1212.9604675742557,,
+458,Semuc Champey,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),12590.0,12351.929511263776,238.07048873622443,,
+459,Semuc Champey,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),13918.0,13953.894737880553,-35.89473788055329,,
+460,Semuc Champey,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),15166.0,13722.21363089456,1443.7863691054408,,
+461,Semuc Champey,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),11353.0,12833.532949346718,-1480.532949346718,,
+462,Semuc Champey,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),10244.0,10465.235370523955,-221.23537052395477,,
+463,Semuc Champey,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),15259.0,16058.562116192064,-799.5621161920644,,
+464,Semuc Champey,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),15270.0,15619.214579336442,-349.2145793364416,,
+465,Semuc Champey,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),11382.0,11720.885586039836,-338.8855860398362,,
+466,Semuc Champey,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),11220.0,11946.256325029273,-726.2563250292733,,
+467,Semuc Champey,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),13003.0,12667.929251483616,335.0707485163839,,
+468,Semuc Champey,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),15076.0,15637.969650373263,-561.969650373263,,
+469,Semuc Champey,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,14691.837707581355,,13658.893284942009,15724.782130220701
+470,Semuc Champey,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,13076.574224078402,,11615.770212404193,14537.37823575261
+471,Semuc Champey,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,14610.07320455743,,12820.960983151184,16399.185425963675
+472,Semuc Champey,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,14748.478914897007,,12682.590069618316,16814.367760175697
+473,Semuc Champey,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,13128.664118305589,,10818.93017230474,15438.398064306439
+474,Semuc Champey,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,11075.097365526142,,8544.910597405975,13605.28413364631
+475,Semuc Champey,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,16523.99859461697,,13791.084534162064,19256.912655071876
+476,Semuc Champey,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,16197.250714985303,,13275.642691636886,19118.85873833372
+477,Semuc Champey,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,12301.454959307563,,9202.621691389526,15400.2882272256
+478,Semuc Champey,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,12430.074246342845,,9163.617174434918,15696.531318250773
+479,Semuc Champey,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,13416.97491954411,,9991.085840359112,16842.86399872911
+480,Semuc Champey,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,16162.848515591419,,12584.624072778926,19741.07295840391
+481,Semuc Champey,SARIMA,2025-01-01,Prueba (ultimos 12 meses),13117.0,14690.56695687456,-1573.5669568745598,,
+482,Semuc Champey,SARIMA,2025-02-01,Prueba (ultimos 12 meses),12590.0,12677.668625972983,-87.66862597298314,,
+483,Semuc Champey,SARIMA,2025-03-01,Prueba (ultimos 12 meses),13918.0,14218.105545942186,-300.1055459421859,,
+484,Semuc Champey,SARIMA,2025-04-01,Prueba (ultimos 12 meses),15166.0,13717.09048750281,1448.90951249719,,
+485,Semuc Champey,SARIMA,2025-05-01,Prueba (ultimos 12 meses),11353.0,13152.112006939493,-1799.1120069394929,,
+486,Semuc Champey,SARIMA,2025-06-01,Prueba (ultimos 12 meses),10244.0,9695.229957090245,548.7700429097549,,
+487,Semuc Champey,SARIMA,2025-07-01,Prueba (ultimos 12 meses),15259.0,16820.604886602974,-1561.6048866029741,,
+488,Semuc Champey,SARIMA,2025-08-01,Prueba (ultimos 12 meses),15270.0,16781.500337082394,-1511.5003370823943,,
+489,Semuc Champey,SARIMA,2025-09-01,Prueba (ultimos 12 meses),11382.0,10616.992547188343,765.0074528116565,,
+490,Semuc Champey,SARIMA,2025-10-01,Prueba (ultimos 12 meses),11220.0,11707.625606973617,-487.6256069736173,,
+491,Semuc Champey,SARIMA,2025-11-01,Prueba (ultimos 12 meses),13003.0,12459.71333836657,543.2866616334304,,
+492,Semuc Champey,SARIMA,2025-12-01,Prueba (ultimos 12 meses),15076.0,16229.135089515748,-1153.1350895157484,,
+493,Semuc Champey,SARIMA,2026-01-01,Pronostico (12 meses futuros),,14997.662300865952,,13431.94284573593,16745.89276280471
+494,Semuc Champey,SARIMA,2026-02-01,Pronostico (12 meses futuros),,13272.582439788217,,11800.028820097285,14928.899522765929
+495,Semuc Champey,SARIMA,2026-03-01,Pronostico (12 meses futuros),,15054.785754385528,,13350.651513111463,16976.442976424292
+496,Semuc Champey,SARIMA,2026-04-01,Pronostico (12 meses futuros),,15296.164937186508,,13564.412828880879,17249.007733489754
+497,Semuc Champey,SARIMA,2026-05-01,Pronostico (12 meses futuros),,12895.533708790783,,11432.52398897142,14545.763454769787
+498,Semuc Champey,SARIMA,2026-06-01,Pronostico (12 meses futuros),,10690.421471723905,,9477.558159006274,12058.49748698122
+499,Semuc Champey,SARIMA,2026-07-01,Pronostico (12 meses futuros),,16978.983337094083,,15051.34620726368,19153.494391232176
+500,Semuc Champey,SARIMA,2026-08-01,Pronostico (12 meses futuros),,16852.77638142704,,14938.796650413933,19011.977899472604
+501,Semuc Champey,SARIMA,2026-09-01,Pronostico (12 meses futuros),,11838.28508942711,,10493.148820138684,13355.85687964159
+502,Semuc Champey,SARIMA,2026-10-01,Pronostico (12 meses futuros),,12287.230980174469,,10890.49242012973,13863.105480988044
+503,Semuc Champey,SARIMA,2026-11-01,Pronostico (12 meses futuros),,13631.008707956154,,12080.80976603298,15380.127822126098
+504,Semuc Champey,SARIMA,2026-12-01,Pronostico (12 meses futuros),,16621.249562719368,,14730.178477405816,18755.09773693203
+505,Tikal y Peten,Tendencia + estacionalidad,2025-01-01,Prueba (ultimos 12 meses),40587.0,47067.02197768448,-6480.021977684482,,
+506,Tikal y Peten,Tendencia + estacionalidad,2025-02-01,Prueba (ultimos 12 meses),41149.0,37020.6710096208,4128.328990379203,,
+507,Tikal y Peten,Tendencia + estacionalidad,2025-03-01,Prueba (ultimos 12 meses),40023.0,43208.14114170671,-3185.1411417067065,,
+508,Tikal y Peten,Tendencia + estacionalidad,2025-04-01,Prueba (ultimos 12 meses),41361.0,41774.86892423747,-413.8689242374676,,
+509,Tikal y Peten,Tendencia + estacionalidad,2025-05-01,Prueba (ultimos 12 meses),33118.0,34154.93794249616,-1036.937942496159,,
+510,Tikal y Peten,Tendencia + estacionalidad,2025-06-01,Prueba (ultimos 12 meses),33058.0,30920.12623890693,2137.8737610930693,,
+511,Tikal y Peten,Tendencia + estacionalidad,2025-07-01,Prueba (ultimos 12 meses),48042.0,47559.86603393566,482.13396606434253,,
+512,Tikal y Peten,Tendencia + estacionalidad,2025-08-01,Prueba (ultimos 12 meses),47098.0,47482.80743662473,-384.80743662473105,,
+513,Tikal y Peten,Tendencia + estacionalidad,2025-09-01,Prueba (ultimos 12 meses),33565.0,34001.67391238327,-436.6739123832667,,
+514,Tikal y Peten,Tendencia + estacionalidad,2025-10-01,Prueba (ultimos 12 meses),33284.0,34599.519480428404,-1315.5194804284038,,
+515,Tikal y Peten,Tendencia + estacionalidad,2025-11-01,Prueba (ultimos 12 meses),37945.0,39361.4472914344,-1416.4472914344005,,
+516,Tikal y Peten,Tendencia + estacionalidad,2025-12-01,Prueba (ultimos 12 meses),52216.0,52952.33258329363,-736.3325832936316,,
+517,Tikal y Peten,Tendencia + estacionalidad,2026-01-01,Pronostico (12 meses futuros),,47912.80633598824,,41972.890364065686,54693.32683734553
+518,Tikal y Peten,Tendencia + estacionalidad,2026-02-01,Pronostico (12 meses futuros),,40155.06809641216,,35176.90570978608,45837.729649396824
+519,Tikal y Peten,Tendencia + estacionalidad,2026-03-01,Pronostico (12 meses futuros),,44778.436717357654,,39227.099365294154,51115.38776237957
+520,Tikal y Peten,Tendencia + estacionalidad,2026-04-01,Pronostico (12 meses futuros),,44020.13906597368,,38562.81049100708,50249.77740768024
+521,Tikal y Peten,Tendencia + estacionalidad,2026-05-01,Pronostico (12 meses futuros),,35803.33496123186,,31364.671951326418,40870.148310030614
+522,Tikal y Peten,Tendencia + estacionalidad,2026-06-01,Pronostico (12 meses futuros),,33213.71221398538,,29096.093674106512,37914.04754842293
+523,Tikal y Peten,Tendencia + estacionalidad,2026-07-01,Pronostico (12 meses futuros),,50367.80992334732,,44123.53868328577,57495.75741610775
+524,Tikal y Peten,Tendencia + estacionalidad,2026-08-01,Pronostico (12 meses futuros),,50057.624789471425,,43851.80827105657,57141.67552851818
+525,Tikal y Peten,Tendencia + estacionalidad,2026-09-01,Pronostico (12 meses futuros),,35802.57120190498,,31364.002877879397,40869.27646507548
+526,Tikal y Peten,Tendencia + estacionalidad,2026-10-01,Pronostico (12 meses futuros),,36197.5152335768,,31709.984334800487,41320.1121530377
+527,Tikal y Peten,Tendencia + estacionalidad,2026-11-01,Pronostico (12 meses futuros),,41201.14297069831,,36093.29507139267,47031.842859849574
+528,Tikal y Peten,Tendencia + estacionalidad,2026-12-01,Pronostico (12 meses futuros),,55741.936534984816,,48831.41627014798,63630.41922602954
+529,Tikal y Peten,Suavizamiento (Holt-Winters),2025-01-01,Prueba (ultimos 12 meses),40587.0,46851.63805173117,-6264.63805173117,,
+530,Tikal y Peten,Suavizamiento (Holt-Winters),2025-02-01,Prueba (ultimos 12 meses),41149.0,37310.37876971757,3838.621230282428,,
+531,Tikal y Peten,Suavizamiento (Holt-Winters),2025-03-01,Prueba (ultimos 12 meses),40023.0,42162.22051959801,-2139.220519598013,,
+532,Tikal y Peten,Suavizamiento (Holt-Winters),2025-04-01,Prueba (ultimos 12 meses),41361.0,42540.39358927684,-1179.3935892768422,,
+533,Tikal y Peten,Suavizamiento (Holt-Winters),2025-05-01,Prueba (ultimos 12 meses),33118.0,33888.08487892509,-770.0848789250886,,
+534,Tikal y Peten,Suavizamiento (Holt-Winters),2025-06-01,Prueba (ultimos 12 meses),33058.0,30599.657971710752,2458.3420282892475,,
+535,Tikal y Peten,Suavizamiento (Holt-Winters),2025-07-01,Prueba (ultimos 12 meses),48042.0,45093.85689233968,2948.1431076603185,,
+536,Tikal y Peten,Suavizamiento (Holt-Winters),2025-08-01,Prueba (ultimos 12 meses),47098.0,45951.866057716434,1146.1339422835663,,
+537,Tikal y Peten,Suavizamiento (Holt-Winters),2025-09-01,Prueba (ultimos 12 meses),33565.0,33455.370989111674,109.62901088832587,,
+538,Tikal y Peten,Suavizamiento (Holt-Winters),2025-10-01,Prueba (ultimos 12 meses),33284.0,34126.21348422053,-842.2134842205269,,
+539,Tikal y Peten,Suavizamiento (Holt-Winters),2025-11-01,Prueba (ultimos 12 meses),37945.0,38492.365367402715,-547.3653674027155,,
+540,Tikal y Peten,Suavizamiento (Holt-Winters),2025-12-01,Prueba (ultimos 12 meses),52216.0,48683.83947300639,3532.1605269936117,,
+541,Tikal y Peten,Suavizamiento (Holt-Winters),2026-01-01,Pronostico (12 meses futuros),,46771.70617213385,,41973.06816359304,51570.344180674656
+542,Tikal y Peten,Suavizamiento (Holt-Winters),2026-02-01,Pronostico (12 meses futuros),,40523.62935475785,,33737.33040216043,47309.92830735528
+543,Tikal y Peten,Suavizamiento (Holt-Winters),2026-03-01,Pronostico (12 meses futuros),,43338.225088286104,,35026.74025036229,51649.70992620992
+544,Tikal y Peten,Suavizamiento (Holt-Winters),2026-04-01,Pronostico (12 meses futuros),,44031.880698674606,,34434.60468159299,53629.156715756224
+545,Tikal y Peten,Suavizamiento (Holt-Winters),2026-05-01,Pronostico (12 meses futuros),,35503.26870499214,,24773.187918480675,46233.3494915036
+546,Tikal y Peten,Suavizamiento (Holt-Winters),2026-06-01,Pronostico (12 meses futuros),,33294.675373328806,,21540.460792078604,45048.889954579005
+547,Tikal y Peten,Suavizamiento (Holt-Winters),2026-07-01,Pronostico (12 meses futuros),,47617.10091823265,,34921.09811581144,60313.10372065387
+548,Tikal y Peten,Suavizamiento (Holt-Winters),2026-08-01,Pronostico (12 meses futuros),,47411.89001836294,,33839.29211316808,60984.4879235578
+549,Tikal y Peten,Suavizamiento (Holt-Winters),2026-09-01,Pronostico (12 meses futuros),,35554.71837427803,,21158.804348655613,49950.63239990045
+550,Tikal y Peten,Suavizamiento (Holt-Winters),2026-10-01,Pronostico (12 meses futuros),,36006.462341740626,,20831.836568097147,51181.088115384104
+551,Tikal y Peten,Suavizamiento (Holt-Winters),2026-11-01,Pronostico (12 meses futuros),,40093.870889041056,,24178.58910997295,56009.152668109164
+552,Tikal y Peten,Suavizamiento (Holt-Winters),2026-12-01,Pronostico (12 meses futuros),,52382.92956972003,,35759.9598938724,69005.89924556765
+553,Tikal y Peten,SARIMA,2025-01-01,Prueba (ultimos 12 meses),40587.0,52475.854414663765,-11888.854414663765,,
+554,Tikal y Peten,SARIMA,2025-02-01,Prueba (ultimos 12 meses),41149.0,39668.28378763008,1480.7162123699236,,
+555,Tikal y Peten,SARIMA,2025-03-01,Prueba (ultimos 12 meses),40023.0,46944.46624973669,-6921.466249736688,,
+556,Tikal y Peten,SARIMA,2025-04-01,Prueba (ultimos 12 meses),41361.0,46315.81145895599,-4954.811458955992,,
+557,Tikal y Peten,SARIMA,2025-05-01,Prueba (ultimos 12 meses),33118.0,36932.54409697657,-3814.5440969765696,,
+558,Tikal y Peten,SARIMA,2025-06-01,Prueba (ultimos 12 meses),33058.0,32608.992881897717,449.00711810228313,,
+559,Tikal y Peten,SARIMA,2025-07-01,Prueba (ultimos 12 meses),48042.0,50068.72452922451,-2026.7245292245134,,
+560,Tikal y Peten,SARIMA,2025-08-01,Prueba (ultimos 12 meses),47098.0,49281.361904120975,-2183.361904120975,,
+561,Tikal y Peten,SARIMA,2025-09-01,Prueba (ultimos 12 meses),33565.0,36378.23744086926,-2813.237440869263,,
+562,Tikal y Peten,SARIMA,2025-10-01,Prueba (ultimos 12 meses),33284.0,35473.394437706,-2189.3944377060034,,
+563,Tikal y Peten,SARIMA,2025-11-01,Prueba (ultimos 12 meses),37945.0,40802.36701001637,-2857.3670100163727,,
+564,Tikal y Peten,SARIMA,2025-12-01,Prueba (ultimos 12 meses),52216.0,59123.81192986828,-6907.81192986828,,
+565,Tikal y Peten,SARIMA,2026-01-01,Pronostico (12 meses futuros),,50797.39208761344,,45207.47909341648,57078.49883800556
+566,Tikal y Peten,SARIMA,2026-02-01,Pronostico (12 meses futuros),,38861.14224512919,,34579.47889041989,43672.96515317229
+567,Tikal y Peten,SARIMA,2026-03-01,Pronostico (12 meses futuros),,45279.2843141892,,40280.23987206226,50898.743267593505
+568,Tikal y Peten,SARIMA,2026-04-01,Pronostico (12 meses futuros),,44489.332520903234,,39578.914363747164,50008.969168908414
+569,Tikal y Peten,SARIMA,2026-05-01,Pronostico (12 meses futuros),,35475.973393078544,,31560.182051671327,39877.611799763625
+570,Tikal y Peten,SARIMA,2026-06-01,Pronostico (12 meses futuros),,31709.15531809534,,28209.171953637462,35643.390477381334
+571,Tikal y Peten,SARIMA,2026-07-01,Pronostico (12 meses futuros),,48593.06121984246,,43229.46085300288,54622.13851670865
+572,Tikal y Peten,SARIMA,2026-08-01,Pronostico (12 meses futuros),,48044.37331189427,,42741.34774912573,54005.35847585371
+573,Tikal y Peten,SARIMA,2026-09-01,Pronostico (12 meses futuros),,35209.389617418296,,31323.014868068854,39577.96279996447
+574,Tikal y Peten,SARIMA,2026-10-01,Pronostico (12 meses futuros),,34874.449180385076,,31025.299524056234,39201.14307654724
+575,Tikal y Peten,SARIMA,2026-11-01,Pronostico (12 meses futuros),,39730.61381233302,,35343.89560667498,44661.79086401078
+576,Tikal y Peten,SARIMA,2026-12-01,Pronostico (12 meses futuros),,57349.68926878553,,51034.81573347758,64445.94365545557
