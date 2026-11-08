@@ -1,0 +1,21 @@
+# Datos (se descargan con la API de Kaggle, ver README)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+
+# Modelos entrenados (se regeneran al ejecutar los notebooks)
+models/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Credenciales
+kaggle.json
+.env
+
+# macOS
+.DS_Store

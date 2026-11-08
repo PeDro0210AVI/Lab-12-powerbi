@@ -1,0 +1,80 @@
+{
+
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
+  };
+
+  outputs =
+    {
+      nixpkgs,
+      ...
+    }:
+    let
+      forAllSystems =
+        function:
+        nixpkgs.lib.genAttrs
+          [
+            "x86_64-linux"
+            "aarch64-darwin"
+          ]
+          (
+            system:
+            let
+              pkgs = nixpkgs.legacyPackages.${system};
+              pythonPackages =
+                ps: with ps; [
+                  ipykernel
+                  openpyxl
+                  jupyterlab-vim
+                  jupyterlab
+                  jupyterlab-lsp
+                  python-lsp-server
+                  pandas
+                  numpy
+                  scikit-learn
+                  statsmodels
+                  streamlit
+                  jsonschema
+                  referencing
+                ];
+              pythonEnv = pkgs.python3.withPackages pythonPackages;
+            in
+            function {
+              inherit
+                pkgs
+                pythonEnv
+                ;
+
+            }
+          );
+    in
+    {
+
+      #TODO: make a darwin and linux different packages
+
+      templates.default.path = ./.;
+
+      devShells = forAllSystems (
+        {
+          pkgs,
+          pythonEnv,
+        }:
+        {
+          default =
+
+            pkgs.mkShell {
+
+              packages = [
+                pythonEnv
+                pkgs.poppler-utils
+                pkgs.pandoc
+                pkgs.dotnet-sdk_8
+                pkgs.python3Packages.weasyprint
+              ];
+
+            };
+        }
+      );
+
+    };
+}
