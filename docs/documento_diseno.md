@@ -221,7 +221,7 @@ emite avisos de convergencia en algunas series por destino.
 | Integracion de modelos | Directa: los modelos corren dentro de la app | Requiere exportar a CSV; no recalcula ante cambios | Streamlit si el modelo debe correr en vivo |
 | Interaccion y navegacion | El enlace exigio Altair y fijar `plotly<7` | Filtrado cruzado y jerarquias nativos | Power BI reduce trabajo de interaccion |
 | Personalizacion | CSS propio, radar, caja y mapa | Tema JSON; V1, V9 y V13 se sustituyeron | Streamlit para visuales a medida |
-| Rendimiento | Entrena al primer acceso, con cache. [PENDIENTE: medicion] | Modelo importado, sin entrenamiento. [PENDIENTE: medicion] | Pendiente de prueba |
+| Rendimiento | Entrena al primer acceso, con cache. Medido fuera de la interfaz, en una maquina virtual Linux ARM64 de 4 nucleos y 3.9 GB, con statsmodels 0.15 y scikit-learn 1.7: carga de datos 0.04 s; pronosticos 0.4 s; clasificadores 3.3 s; con cache, 0.001 s. No incluye el renderizado de las graficas | Modelo importado, sin entrenamiento. [PENDIENTE: medicion] | Pendiente de prueba |
 | Colaboracion y versiones | Codigo en git con historial por autor | `.pbix` binario; PBIP en texto compatible con git | Trabajar en PBIP y entregar `.pbix` |
 | Compartir o desplegar | Navegador, sin instalar para quien consulta | `.pbix` exige Desktop; web exige licencias | Ver 5.2 |
 
@@ -254,22 +254,28 @@ learn.microsoft.com/power-bi/developer/projects/projects-overview.
 |---|---|---|---|
 | T1 Filtros | ¿Cuantos visitantes recibio Antigua Guatemala en 2022-2025? | Periodo 2022-2025; destino Antigua Guatemala; leer tarjeta | 3 990 138 |
 | T2 Detalle | ¿Como se reparte por trimestre la visita de 2024 y como se regresa? | Vista anual; bajar a trimestre en 2024; leer; volver a anual (Lab 10: selector Ano / Trimestre) | Serie trimestral de 2024 y regreso a la anual |
-| T3 Modelos | ¿Que pronostico tiene menor MAPE y que clasificador mayor AUC? | Modelos / Pronostico con todos los destinos; luego clasificacion | Holt-Winters 2.16%; Regresion logistica 0.710 |
+| T3 Modelos | ¿Que pronostico tiene menor MAPE y que clasificador mayor AUC? | Modelos / Pronostico con todos los destinos; luego clasificacion | Clasificacion: Regresion logistica, AUC 0.710. Pronostico: Holt-Winters 2.16% segun la exportacion del Lab 12; la app del Lab 10 mostro SARIMA 2.61% (ver 5.4 y 5.5) |
 
 **Nota para T3.** El selector del Lab 10 debe estar en 2022, su valor por defecto, y
 sin filtros de lugar.
 
 ## 5.4 Registro de pruebas
 
-[PENDIENTE: completar por cada persona que ejecute las pruebas.]
+Las filas de Streamlit las ejecuto Claude de forma automatizada en el navegador
+integrado de la Mac de Brandon el 8 de noviembre de 2026, sobre la app del Lab 10 en
+`localhost:8501`. El **tiempo** es de reloj entre el primer y el ultimo paso e incluye
+la latencia de la automatizacion y las lecturas de verificacion: **no es el tiempo de
+una persona y no debe compararse con el de Power BI** si lo mide alguien. Los clics
+excluyen teclado y desplazamientos. **[PENDIENTE: filas de Power BI y, si el equipo
+quiere, repetir Streamlit a mano.]**
 
 | Prueba | Herramienta | Resultado | Pasos o clics | Tiempo | Dificultades |
 |---|---|---|---|---|---|
-| T1 | Streamlit | | | | |
+| T1 | Streamlit | 3 990 138 visitantes (coincide con lo esperado) | 2 clics, mas escribir "Antigua" y Enter | 17.1 s | El panel angosto apilo los controles; la primera corrida se descarto por un clic mal dirigido |
 | T1 | Power BI | | | | |
-| T2 | Streamlit | | | | |
+| T2 | Streamlit | Serie de 2024 vista por trimestre (4 175 563 visitantes) y regreso a la vista anual | 8 clics, mas 3 teclas de flecha y Escape | 40.5 s | Acotar el periodo a un solo ano exige mover dos controles deslizantes; el menu de Lugar tapo Restablecer en una primera corrida |
 | T2 | Power BI | | | | |
-| T3 | Streamlit | | | | |
+| T3 | Streamlit | Clasificacion: Regresion logistica, AUC 0.710 y 519 falsas alarmas (coincide). Pronostico: menor MAPE SARIMA 2.61%, luego Holt-Winters 2.94% y Tendencia 3.65% (no coincide con 2.16%) | 3 clics | 36.7 s | Restablecer no limpio Periodo ni Detalle al cambiar de seccion, hubo que repetirlo |
 | T3 | Power BI | | | | |
 
 **Entorno.** Registrar equipo, sistema operativo y experiencia previa. El Lab 10 se
@@ -290,6 +296,16 @@ Valores calculados desde los datos con las reglas de agregacion del Lab 10
 | AUC regresion logistica | 0.710 | [PENDIENTE] |
 | Falsas alarmas, regresion logistica | 519 | [PENDIENTE] |
 
+**Discrepancia observada en T3.** La exportacion usada para Power BI y los indicadores de
+referencia dan Holt-Winters 2.157% y SARIMA 2.629%. La app del Lab 10 en la Mac del equipo
+mostro SARIMA 2.61% y Holt-Winters 2.94%, y concluyo que SARIMA es el de menor error.
+Tendencia + estacionalidad coincide en ambas (3.65%). Con statsmodels 0.15 y
+scikit-learn 1.7 una corrida independiente dio Holt-Winters 2.16% y SARIMA 2.54%. Los
+valores cambian con la version de la libreria, pero **no se ha confirmado la version
+instalada en el entorno del equipo**. **[PENDIENTE: comprobar con `pip list` en el
+entorno del Lab 10 y decidir que valores usar en ambas versiones antes de comparar.]**
+La clasificacion no cambia (AUC 0.710, 519 falsas alarmas).
+
 ## 5.6 Recomendaciones
 
 Se derivan de requisitos, costos y limites; los resultados de 5.4 deben confirmarlas.
@@ -306,7 +322,22 @@ modelos. Si no hay presupuesto de licencias, conviene mantener Streamlit.
 
 # Anexo. Capturas
 
-[PENDIENTE: insertar capturas de cada pagina en Power BI y de cada seccion en
-Streamlit, ademas de las pruebas T1 a T3.]
+## Capturas de las pruebas en Streamlit (Lab 10)
+
+Tomadas el 8 de noviembre de 2026 en la app del Lab 10 (`localhost:8501`).
+
+![T1. Antigua Guatemala, 2022-2025: 3 990 138 visitantes](capturas/T1_streamlit_antigua_2022-2025.jpg){width=70%}
+
+![T2. Periodo 2024, detalle por trimestre: 4 175 563 visitantes](capturas/T2_streamlit_2024_trimestre.jpg){width=45%}
+
+![T2. Serie de visitantes de 2024](capturas/T2_streamlit_serie_2024.jpg){width=45%}
+
+![T3. Pronostico: MAPE de SARIMA 2.61%, Holt-Winters 2.94% y Tendencia 3.65%](capturas/T3_streamlit_pronostico_mape.jpg){width=45%}
+
+![T3. Matrices de confusion y AUC de los tres clasificadores](capturas/T3_streamlit_matriz_confusion_roc.jpg){width=45%}
+
+La captura de T1 corresponde a la primera corrida; el valor es el mismo que en la
+corrida medida. **[PENDIENTE: capturas de cada pagina en Power BI, de cada seccion de
+Streamlit y de las pruebas en Power BI.]**
 
 **Repositorio del Laboratorio 10:** <https://github.com/jlope384/Laboratorio-10-Dashboard>

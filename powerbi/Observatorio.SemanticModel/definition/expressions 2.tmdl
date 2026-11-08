@@ -1,1 +1,0 @@
-expression RutaDatos = "C:\Lab-12-powerbi\powerbi\datos" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
