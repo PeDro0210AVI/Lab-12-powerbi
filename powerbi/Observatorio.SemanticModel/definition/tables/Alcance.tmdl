@@ -1,0 +1,13 @@
+table Alcance
+	column alcance
+		dataType: string
+		summarizeBy: none
+		sourceColumn: alcance
+
+	partition Alcance = m
+		mode: import
+		source =
+				let
+				    Final = #table(type table [alcance = text], {{"Todos los destinos"}, {"Antigua Guatemala"}, {"Ciudad de Guatemala"}, {"Lago de Atitlan"}, {"Quetzaltenango"}, {"Rio Dulce y Livingston"}, {"Semuc Champey"}, {"Tikal y Peten"}})
+				in
+				    Final

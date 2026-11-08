@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "a6a44ec54b7b5c3e9df4",
+  "position": {
+    "x": 16,
+    "y": 386,
+    "z": 1400,
+    "height": 72,
+    "width": 1248,
+    "tabOrder": 1400
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Los datos son sinteticos y no son cifras oficiales. El informe muestra asociaciones, no causas. La capacidad de carga es una estimacion. Los pronosticos suponen que el patron historico continua y no incluyen crisis, rutas nuevas ni campanas.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2E3B73",
+                      "fontWeight": "normal"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

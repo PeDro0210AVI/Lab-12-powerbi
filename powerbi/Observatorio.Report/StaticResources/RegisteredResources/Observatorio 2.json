@@ -1,0 +1,44 @@
+{
+  "name": "Observatorio",
+  "dataColors": [
+    "#4361EE",
+    "#60A125",
+    "#FFA630",
+    "#4CC9F0",
+    "#A2158D",
+    "#F72585",
+    "#4D0A99",
+    "#FFA5A3"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2E3B73",
+  "tableAccent": "#4361EE",
+  "good": "#60A125",
+  "neutral": "#FFA630",
+  "bad": "#F72585",
+  "maximum": "#0B2183",
+  "center": "#7487DB",
+  "minimum": "#EDEFFA",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#2E3B73"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 24,
+      "color": "#2E3B73"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#2E3B73"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#2E3B73"
+    }
+  }
+}

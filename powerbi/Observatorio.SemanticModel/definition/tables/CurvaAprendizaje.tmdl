@@ -1,0 +1,35 @@
+table CurvaAprendizaje
+	column tamano
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: tamano
+
+	column entrenamiento
+		dataType: double
+		summarizeBy: none
+		sourceColumn: entrenamiento
+
+	column validacion
+		dataType: double
+		summarizeBy: none
+		sourceColumn: validacion
+
+	column validacion_sd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: validacion_sd
+
+	column modelo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: modelo
+
+	partition CurvaAprendizaje = m
+		mode: import
+		source =
+				let
+				    Fuente = Csv.Document(File.Contents(RutaDatos & "\modelos\curvas_aprendizaje.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Fuente, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"tamano", Int64.Type}, {"entrenamiento", type number}, {"validacion", type number}, {"validacion_sd", type number}, {"modelo", type text}}, "en-US")
+				in
+				    Tipos

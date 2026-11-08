@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "68cba846b56a507ca2e0",
+  "position": {
+    "x": 640,
+    "y": 112,
+    "z": 1200,
+    "height": 66,
+    "width": 624,
+    "tabOrder": 1200
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Falsa alarma: se predijo promotor y no lo fue. Oportunidad perdida: era promotor y no se detecto. Las metricas globales usan todo el conjunto de prueba y no cambian con el destino.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#5A6798",
+                      "fontWeight": "normal"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

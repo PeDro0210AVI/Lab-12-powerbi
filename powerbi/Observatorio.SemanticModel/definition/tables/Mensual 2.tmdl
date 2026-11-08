@@ -1,0 +1,117 @@
+table Mensual
+	column fecha
+		dataType: dateTime
+		formatString: yyyy-mm
+		summarizeBy: none
+		sourceColumn: fecha
+
+	column destino
+		dataType: string
+		summarizeBy: none
+		sourceColumn: destino
+
+	column llegadas
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: llegadas
+
+	column estancia_promedio
+		dataType: double
+		summarizeBy: none
+		sourceColumn: estancia_promedio
+
+	column noches_totales
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: noches_totales
+
+	column ocupacion_hotelera
+		dataType: double
+		summarizeBy: none
+		sourceColumn: ocupacion_hotelera
+
+	column gasto_diario_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_diario_usd
+
+	column gasto_total_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_total_usd
+
+	column gasto_alojamiento_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_alojamiento_usd
+
+	column gasto_alimentacion_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_alimentacion_usd
+
+	column gasto_transporte_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_transporte_usd
+
+	column gasto_actividades_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_actividades_usd
+
+	column gasto_artesanias_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_artesanias_usd
+
+	column empleos_turisticos
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: empleos_turisticos
+
+	column empleo_local_pct
+		dataType: double
+		summarizeBy: none
+		sourceColumn: empleo_local_pct
+
+	column empresas_certificadas_pct
+		dataType: double
+		summarizeBy: none
+		sourceColumn: empresas_certificadas_pct
+
+	column residuos_ton
+		dataType: double
+		summarizeBy: none
+		sourceColumn: residuos_ton
+
+	column agua_miles_m3
+		dataType: double
+		summarizeBy: none
+		sourceColumn: agua_miles_m3
+
+	column co2_ton
+		dataType: double
+		summarizeBy: none
+		sourceColumn: co2_ton
+
+	column presion_turistica
+		dataType: double
+		summarizeBy: none
+		sourceColumn: presion_turistica
+
+	column satisfaccion_promedio
+		dataType: double
+		summarizeBy: none
+		sourceColumn: satisfaccion_promedio
+
+	partition Mensual = m
+		mode: import
+		source =
+				let
+				    Fuente = Csv.Document(File.Contents(RutaDatos & "\origen\turismo_mensual.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Fuente, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"fecha", type date}, {"anio", Int64.Type}, {"mes", Int64.Type}, {"trimestre", type text}, {"destino", type text}, {"region", type text}, {"perfil", type text}, {"lat", type number}, {"lon", type number}, {"llegadas", Int64.Type}, {"estancia_promedio", type number}, {"noches_totales", Int64.Type}, {"ocupacion_hotelera", type number}, {"gasto_diario_usd", type number}, {"gasto_total_usd", type number}, {"gasto_alojamiento_usd", type number}, {"gasto_alimentacion_usd", type number}, {"gasto_transporte_usd", type number}, {"gasto_actividades_usd", type number}, {"gasto_artesanias_usd", type number}, {"empleos_turisticos", Int64.Type}, {"empleo_local_pct", type number}, {"empresas_certificadas_pct", type number}, {"residuos_ton", type number}, {"agua_miles_m3", type number}, {"co2_ton", type number}, {"capacidad_carga", Int64.Type}, {"presion_turistica", type number}, {"satisfaccion_promedio", type number}}, "en-US"),
+				    Quitadas = Table.RemoveColumns(Tipos, {"region", "perfil", "lat", "lon", "capacidad_carga", "trimestre", "anio", "mes"})
+				in
+				    Quitadas

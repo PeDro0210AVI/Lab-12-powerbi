@@ -1,0 +1,32 @@
+table LlegadasMercado
+	column fecha
+		dataType: dateTime
+		formatString: yyyy-mm
+		summarizeBy: none
+		sourceColumn: fecha
+
+	column destino
+		dataType: string
+		summarizeBy: none
+		sourceColumn: destino
+
+	column mercado
+		dataType: string
+		summarizeBy: none
+		sourceColumn: mercado
+
+	column llegadas
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: llegadas
+
+	partition LlegadasMercado = m
+		mode: import
+		source =
+				let
+				    Fuente = Csv.Document(File.Contents(RutaDatos & "\origen\mercados.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Fuente, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"fecha", type date}, {"anio", Int64.Type}, {"mes", Int64.Type}, {"destino", type text}, {"region", type text}, {"mercado", type text}, {"llegadas", Int64.Type}}, "en-US"),
+				    Quitadas = Table.RemoveColumns(Tipos, {"region", "anio", "mes"})
+				in
+				    Quitadas

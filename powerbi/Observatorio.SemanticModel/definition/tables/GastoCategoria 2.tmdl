@@ -1,0 +1,36 @@
+table GastoCategoria
+	column fecha
+		dataType: dateTime
+		formatString: yyyy-mm
+		summarizeBy: none
+		sourceColumn: fecha
+
+	column destino
+		dataType: string
+		summarizeBy: none
+		sourceColumn: destino
+
+	column gasto_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_usd
+
+	column categoria
+		dataType: string
+		summarizeBy: none
+		sourceColumn: categoria
+
+	partition GastoCategoria = m
+		mode: import
+		source =
+				let
+				    Fuente = Csv.Document(File.Contents(RutaDatos & "\origen\turismo_mensual.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Fuente, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"fecha", type date}, {"anio", Int64.Type}, {"mes", Int64.Type}, {"trimestre", type text}, {"destino", type text}, {"region", type text}, {"perfil", type text}, {"lat", type number}, {"lon", type number}, {"llegadas", Int64.Type}, {"estancia_promedio", type number}, {"noches_totales", Int64.Type}, {"ocupacion_hotelera", type number}, {"gasto_diario_usd", type number}, {"gasto_total_usd", type number}, {"gasto_alojamiento_usd", type number}, {"gasto_alimentacion_usd", type number}, {"gasto_transporte_usd", type number}, {"gasto_actividades_usd", type number}, {"gasto_artesanias_usd", type number}, {"empleos_turisticos", Int64.Type}, {"empleo_local_pct", type number}, {"empresas_certificadas_pct", type number}, {"residuos_ton", type number}, {"agua_miles_m3", type number}, {"co2_ton", type number}, {"capacidad_carga", Int64.Type}, {"presion_turistica", type number}, {"satisfaccion_promedio", type number}}, "en-US"),
+				    Sel = Table.SelectColumns(Tipos, {"fecha", "destino", "gasto_alojamiento_usd", "gasto_alimentacion_usd", "gasto_transporte_usd", "gasto_actividades_usd", "gasto_artesanias_usd"}),
+				    Largo = Table.UnpivotOtherColumns(Sel, {"fecha", "destino"}, "columna", "gasto_usd"),
+				    Nombres = #table(type table [columna = text, categoria = text], {{"gasto_alojamiento_usd", "Alojamiento"}, {"gasto_alimentacion_usd", "Alimentacion"}, {"gasto_transporte_usd", "Transporte"}, {"gasto_actividades_usd", "Actividades y tours"}, {"gasto_artesanias_usd", "Artesanias y compras"}}),
+				    Unida = Table.ExpandTableColumn(Table.NestedJoin(Largo, "columna", Nombres, "columna", "n", JoinKind.Inner), "n", {"categoria"}),
+				    Final = Table.TransformColumnTypes(Table.RemoveColumns(Unida, {"columna"}), {{"gasto_usd", type number}, {"categoria", type text}})
+				in
+				    Final

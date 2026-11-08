@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "991a3d96ff895448b04f",
+  "position": {
+    "x": 16,
+    "y": 272,
+    "z": 1200,
+    "height": 72,
+    "width": 1248,
+    "tabOrder": 1200
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Derrama: gasto total de los visitantes. Presion turistica: visitantes entre capacidad de carga; 1.0 es el limite estimado. Promotor: visitante que recomendaria el destino. MAPE: error promedio en porcentaje. AUC: capacidad de distinguir promotores; 0.5 equivale al azar.",
+                    "textStyle": {
+                      "fontSize": "12pt",
+                      "color": "#2E3B73",
+                      "fontWeight": "normal"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

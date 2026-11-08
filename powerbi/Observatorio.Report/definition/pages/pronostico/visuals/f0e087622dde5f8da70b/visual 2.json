@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "f0e087622dde5f8da70b",
+  "position": {
+    "x": 16,
+    "y": 6,
+    "z": 100,
+    "height": 34,
+    "width": 900,
+    "tabOrder": 100
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Observatorio de Turismo Sostenible | Pronostico",
+                    "textStyle": {
+                      "fontSize": "18pt",
+                      "color": "#4D0A99",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

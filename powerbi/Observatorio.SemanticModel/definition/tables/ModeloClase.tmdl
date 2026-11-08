@@ -1,0 +1,13 @@
+table ModeloClase
+	column modelo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: modelo
+
+	partition ModeloClase = m
+		mode: import
+		source =
+				let
+				    Final = #table(type table [modelo = text], {{"Regresion logistica"}, {"Arbol de decision"}, {"K vecinos cercanos"}})
+				in
+				    Final

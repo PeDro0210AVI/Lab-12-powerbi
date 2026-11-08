@@ -1,0 +1,112 @@
+table Visitantes
+	column id_visitante
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: id_visitante
+
+	column fecha
+		dataType: dateTime
+		formatString: yyyy-mm
+		summarizeBy: none
+		sourceColumn: fecha
+
+	column destino
+		dataType: string
+		summarizeBy: none
+		sourceColumn: destino
+
+	column mercado
+		dataType: string
+		summarizeBy: none
+		sourceColumn: mercado
+
+	column edad
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: edad
+
+	column grupo_viaje
+		dataType: string
+		summarizeBy: none
+		sourceColumn: grupo_viaje
+
+	column noches
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: noches
+
+	column gasto_diario_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_diario_usd
+
+	column gasto_total_usd
+		dataType: double
+		summarizeBy: none
+		sourceColumn: gasto_total_usd
+
+	column tipo_alojamiento
+		dataType: string
+		summarizeBy: none
+		sourceColumn: tipo_alojamiento
+
+	column transporte_principal
+		dataType: string
+		summarizeBy: none
+		sourceColumn: transporte_principal
+
+	column anticipacion_reserva_dias
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: anticipacion_reserva_dias
+
+	column uso_guia_local
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: uso_guia_local
+
+	column actividades_culturales
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: actividades_culturales
+
+	column actividades_naturaleza
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: actividades_naturaleza
+
+	column incidencias_reportadas
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: incidencias_reportadas
+
+	column presion_destino
+		dataType: double
+		summarizeBy: none
+		sourceColumn: presion_destino
+
+	column certificacion_destino_pct
+		dataType: double
+		summarizeBy: none
+		sourceColumn: certificacion_destino_pct
+
+	column calificacion_general
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: calificacion_general
+
+	column promotor
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: promotor
+
+	partition Visitantes = m
+		mode: import
+		source =
+				let
+				    Fuente = Csv.Document(File.Contents(RutaDatos & "\origen\visitantes.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Fuente, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"id_visitante", Int64.Type}, {"fecha", type date}, {"anio", Int64.Type}, {"mes", Int64.Type}, {"destino", type text}, {"region", type text}, {"mercado", type text}, {"edad", Int64.Type}, {"grupo_viaje", type text}, {"noches", Int64.Type}, {"gasto_diario_usd", type number}, {"gasto_total_usd", type number}, {"tipo_alojamiento", type text}, {"transporte_principal", type text}, {"anticipacion_reserva_dias", Int64.Type}, {"uso_guia_local", Int64.Type}, {"actividades_culturales", Int64.Type}, {"actividades_naturaleza", Int64.Type}, {"incidencias_reportadas", Int64.Type}, {"presion_destino", type number}, {"certificacion_destino_pct", type number}, {"calificacion_general", Int64.Type}, {"promotor", Int64.Type}}, "en-US"),
+				    Quitadas = Table.RemoveColumns(Tipos, {"region", "anio", "mes"})
+				in
+				    Quitadas

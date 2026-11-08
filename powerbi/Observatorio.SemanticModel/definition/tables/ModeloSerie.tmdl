@@ -1,0 +1,13 @@
+table ModeloSerie
+	column modelo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: modelo
+
+	partition ModeloSerie = m
+		mode: import
+		source =
+				let
+				    Final = #table(type table [modelo = text], {{"Tendencia + estacionalidad"}, {"Suavizamiento (Holt-Winters)"}, {"SARIMA"}})
+				in
+				    Final

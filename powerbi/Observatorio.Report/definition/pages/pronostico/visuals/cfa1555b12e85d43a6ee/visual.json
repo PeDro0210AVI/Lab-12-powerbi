@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "cfa1555b12e85d43a6ee",
+  "position": {
+    "x": 680,
+    "y": 112,
+    "z": 1200,
+    "height": 66,
+    "width": 584,
+    "tabOrder": 1200
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Si no elige, se usa Todos los destinos y Holt-Winters (el de menor MAPE en el total). Las metricas de pronostico no son comparables con las de clasificacion.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#5A6798",
+                      "fontWeight": "normal"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

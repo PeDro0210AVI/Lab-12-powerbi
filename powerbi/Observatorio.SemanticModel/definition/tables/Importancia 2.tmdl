@@ -1,0 +1,35 @@
+table Importancia
+	column variable
+		dataType: string
+		summarizeBy: none
+		sourceColumn: variable
+
+	column peso
+		dataType: double
+		summarizeBy: none
+		sourceColumn: peso
+
+	column magnitud
+		dataType: double
+		summarizeBy: none
+		sourceColumn: magnitud
+
+	column modelo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: modelo
+
+	column tipo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: tipo
+
+	partition Importancia = m
+		mode: import
+		source =
+				let
+				    Fuente = Csv.Document(File.Contents(RutaDatos & "\modelos\importancia_variables.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Fuente, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"variable", type text}, {"peso", type number}, {"magnitud", type number}, {"modelo", type text}, {"tipo", type text}}, "en-US")
+				in
+				    Tipos

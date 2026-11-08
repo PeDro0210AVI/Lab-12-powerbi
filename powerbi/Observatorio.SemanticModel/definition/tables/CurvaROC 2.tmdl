@@ -1,0 +1,25 @@
+table CurvaROC
+	column modelo
+		dataType: string
+		summarizeBy: none
+		sourceColumn: modelo
+
+	column tasa_falsas_alarmas
+		dataType: double
+		summarizeBy: none
+		sourceColumn: tasa_falsas_alarmas
+
+	column tasa_aciertos
+		dataType: double
+		summarizeBy: none
+		sourceColumn: tasa_aciertos
+
+	partition CurvaROC = m
+		mode: import
+		source =
+				let
+				    Fuente = Csv.Document(File.Contents(RutaDatos & "\modelos\curvas_roc.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Fuente, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"modelo", type text}, {"tasa_falsas_alarmas", type number}, {"tasa_aciertos", type number}}, "en-US")
+				in
+				    Tipos
