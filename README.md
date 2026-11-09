@@ -3,18 +3,14 @@
 Segunda version, en Power BI, del cuadro de mando del
 [Laboratorio 10](https://github.com/jlope384/Laboratorio-10-Dashboard). CC3066, UVG.
 
-**Version de Power BI Desktop usada:** [PENDIENTE: Ayuda > Acerca de]
+**Version de Power BI Desktop usada:** 2.159.1231.0, 64 bits (octubre de 2026), version de Microsoft Store en Windows 11.
 
 ## Estado
 
-`powerbi/Observatorio.pbip` esta generado y validado fuera de Desktop, pero **aun no
-se ha abierto en Power BI Desktop**, que solo existe para Windows. Falta:
-
-1. Abrirlo en Windows y activar, si se pide, *Opciones > Caracteristicas de vista
-   previa > Almacenar informes con formato PBIR* y *Serializacion TMDL*.
-2. Cambiar `RutaDatos`, actualizar y revisar cada pagina.
-3. *Archivo > Guardar como* `.pbix`.
-4. Ejecutar las pruebas y completar los campos `[PENDIENTE]` de `docs/documento_diseno.md`.
+El informe final esta en `powerbi/Observatorio.pbix` (guardado el 8 de noviembre de 2026
+desde el PBIP, con `RutaDatos` apuntando a `powerbi\datos`). `powerbi/Observatorio.pbip`
+es la version en texto del mismo informe, para revisar cambios con git. Los problemas
+conocidos estan al final de `docs/documento_diseno.md`.
 
 ## Abrir el informe y cambiar las rutas
 

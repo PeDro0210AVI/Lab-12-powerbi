@@ -4,10 +4,10 @@
 **Laboratorio 12 · Visualizacion interactiva con Power BI · CC3066 · UVG**
 **Fecha:** 8 de noviembre de 2026
 
-> **Estado de este documento.** Los campos marcados **[PENDIENTE]** requieren
-> Power BI Desktop en Windows o datos que solo el equipo conoce (responsables,
-> horas, tiempos de prueba y capturas). Deben completarse antes de entregar; no
-> se rellenaron con valores estimados.
+> **Estado de este documento.** El informe se abrio y se reviso en Power BI Desktop
+> 2.159.1231.0 (64 bits, octubre de 2026) en Windows y se guardo como
+> `powerbi/Observatorio.pbix`. Las pruebas, los indicadores y las capturas de Power BI
+> se registraron el 8 de noviembre de 2026.
 
 # Parte I. Documento de diseno (ejercicio 4)
 
@@ -197,17 +197,19 @@ emite avisos de convergencia en algunas series por destino.
 
 | # | Tarea | Responsable | Terminacion |
 |---|---|---|---|
-| 1 | Preguntas, alcance y paleta | [PENDIENTE] | [PENDIENTE] |
-| 2 | Exportacion de datos y resultados | [PENDIENTE] | 8 nov 2026 |
-| 3 | Modelo semantico y reporte PBIP | [PENDIENTE] | 8 nov 2026 |
-| 4 | Revision en Desktop y guardado como .pbix | [PENDIENTE] | [PENDIENTE] |
-| 5 | Pruebas 5.3-5.5 y capturas | [PENDIENTE] | [PENDIENTE] |
-| 6 | Documento final | [PENDIENTE] | [PENDIENTE] |
+| 1 | Preguntas, alcance y paleta | Todo el equipo | 5 nov 2026 (avance) |
+| 2 | Exportacion de datos y resultados | Pedro Avila | 8 nov 2026 |
+| 3 | Modelo semantico y reporte PBIP | Pedro Avila | 8 nov 2026 |
+| 4 | Revision en Desktop y guardado como .pbix | Javier Lopez | 8 nov 2026 |
+| 5 | Pruebas 5.3-5.5 y capturas | Brandon Rivera (Streamlit) y Javier Lopez (Power BI) | 8 nov 2026 |
+| 6 | Documento final | Pedro Avila (base) y Javier Lopez (cierre) | 8 nov 2026 |
+
+El equipo no llevo un registro de horas mientras trabajaba. El tiempo de Power BI es una estimacion aproximada del propio equipo, hecha al cierre, no una medicion.
 
 | Herramienta | Tiempo efectivo |
 |---|---|
-| Streamlit (Lab 10) | [PENDIENTE] |
-| Power BI (Lab 12) | [PENDIENTE] |
+| Streamlit (Lab 10) | No se registro durante el desarrollo |
+| Power BI (Lab 12) | Aproximadamente 2 h por integrante, unas 6 h en total (estimacion del equipo). Incluye la sesion en Desktop del 8 nov 2026, de 22:45 a 23:01 |
 
 # Parte II. Comparacion de herramientas (ejercicio 5)
 
@@ -215,13 +217,13 @@ emite avisos de convergencia en algunas series por destino.
 
 | Criterio | Evidencia en Streamlit (Lab 10) | Evidencia en Power BI | Implicacion |
 |---|---|---|---|
-| Facilidad de aprendizaje | Exige Python; el equipo ya lo dominaba | Interfaz de arrastrar, mas Power Query y DAX. [PENDIENTE: experiencia del equipo] | Depende del perfil del equipo |
-| Tiempo de desarrollo | 1 180 lineas de nucleo mas 5 vistas. [PENDIENTE: horas] | [PENDIENTE: horas] | Ver 4.6 |
+| Facilidad de aprendizaje | Exige Python; el equipo ya lo dominaba | Interfaz de arrastrar, mas Power Query y DAX. Desktop se instalo en la PC de Javier el dia de la entrega; el modelo y el reporte se escribieron como PBIP en texto, no en la interfaz | Depende del perfil del equipo |
+| Tiempo de desarrollo | 1 180 lineas de nucleo mas 5 vistas; horas no registradas | Modelo y reporte generados por script (`generar_pbip.py`, 591 lineas); unas 2 h por integrante (estimacion) | Sin registro de Streamlit no se puede comparar en horas; ver 4.6 |
 | Preparacion y actualizacion | Pandas en `datos.py`; basta reemplazar CSV | Power Query documentado; cambiar `RutaDatos` y Actualizar | Ambos reproducibles |
 | Integracion de modelos | Directa: los modelos corren dentro de la app | Requiere exportar a CSV; no recalcula ante cambios | Streamlit si el modelo debe correr en vivo |
 | Interaccion y navegacion | El enlace exigio Altair y fijar `plotly<7` | Filtrado cruzado y jerarquias nativos | Power BI reduce trabajo de interaccion |
 | Personalizacion | CSS propio, radar, caja y mapa | Tema JSON; V1, V9 y V13 se sustituyeron | Streamlit para visuales a medida |
-| Rendimiento | Entrena al primer acceso, con cache. Medido fuera de la interfaz, en una maquina virtual Linux ARM64 de 4 nucleos y 3.9 GB, con statsmodels 0.15 y scikit-learn 1.7: carga de datos 0.04 s; pronosticos 0.4 s; clasificadores 3.3 s; con cache, 0.001 s. No incluye el renderizado de las graficas | Modelo importado, sin entrenamiento. [PENDIENTE: medicion] | Pendiente de prueba |
+| Rendimiento | Entrena al primer acceso, con cache. Medido fuera de la interfaz, en una maquina virtual Linux ARM64 de 4 nucleos y 3.9 GB, con statsmodels 0.15 y scikit-learn 1.7: carga de datos 0.04 s; pronosticos 0.4 s; clasificadores 3.3 s; con cache, 0.001 s. No incluye el renderizado de las graficas | Modelo importado, sin entrenamiento. En la PC Windows de Javier, aplicar el cambio de `RutaDatos` y actualizar las 18 tablas termino en menos de 40 s (medida aproximada); los cambios de filtro y de nivel se reflejan en menos de 2 s | Power BI responde mas rapido al consultar porque no recalcula modelos; Streamlit paga el entrenamiento solo en el primer acceso |
 | Colaboracion y versiones | Codigo en git con historial por autor | `.pbix` binario; PBIP en texto compatible con git | Trabajar en PBIP y entregar `.pbix` |
 | Compartir o desplegar | Navegador, sin instalar para quien consulta | `.pbix` exige Desktop; web exige licencias | Ver 5.2 |
 
@@ -266,19 +268,26 @@ integrado de la Mac de Brandon el 8 de noviembre de 2026, sobre la app del Lab 1
 `localhost:8501`. El **tiempo** es de reloj entre el primer y el ultimo paso e incluye
 la latencia de la automatizacion y las lecturas de verificacion: **no es el tiempo de
 una persona y no debe compararse con el de Power BI** si lo mide alguien. Los clics
-excluyen teclado y desplazamientos. **[PENDIENTE: filas de Power BI y, si el equipo
-quiere, repetir Streamlit a mano.]**
+excluyen teclado y desplazamientos.
+
+Las filas de Power BI se ejecutaron igual, de forma automatizada, en Power BI Desktop
+2.159 sobre la PC Windows de Javier el mismo dia, con el mismo criterio de tiempo
+(reloj entre el primer y el ultimo paso, incluida la latencia de la automatizacion).
+Ninguna de las dos series mide a una persona.
 
 | Prueba | Herramienta | Resultado | Pasos o clics | Tiempo | Dificultades |
 |---|---|---|---|---|---|
 | T1 | Streamlit | 3 990 138 visitantes (coincide con lo esperado) | 2 clics, mas escribir "Antigua" y Enter | 17.1 s | El panel angosto apilo los controles; la primera corrida se descarto por un clic mal dirigido |
-| T1 | Power BI | | | | |
+| T1 | Power BI | 3 990 138 visitantes (coincide). La tarjeta muestra "4 mill." por las unidades de presentacion; el valor exacto se leyo con una consulta DAX (5.5). Variacion 53.6%, igual que la referencia | 9 clics (abrir Periodo, 4 anos con Ctrl, cerrar; abrir Destino, Antigua, cerrar) | 29 s | La tarjeta redondea a millones; elegir varios anos exige Ctrl+clic |
 | T2 | Streamlit | Serie de 2024 vista por trimestre (4 175 563 visitantes) y regreso a la vista anual | 8 clics, mas 3 teclas de flecha y Escape | 40.5 s | Acotar el periodo a un solo ano exige mover dos controles deslizantes; el menu de Lugar tapo Restablecer en una primera corrida |
-| T2 | Power BI | | | | |
+| T2 | Power BI | Serie de 2024 por trimestre (T1 a T4; tarjeta "4 mill." para 2024) y regreso a la vista anual 2017-2026 | 4 clics (Restablecer, clic derecho en 2024, Explorar en profundidad, flecha de subir nivel) | 20 s | Sin dificultades; la jerarquia Ano > Trimestre > Mes es nativa, no requiere mover controles |
 | T3 | Streamlit | Clasificacion: Regresion logistica, AUC 0.710 y 519 falsas alarmas (coincide). Pronostico: menor MAPE SARIMA 2.61%, luego Holt-Winters 2.94% y Tendencia 3.65% (no coincide con 2.16%) | 3 clics | 36.7 s | Restablecer no limpio Periodo ni Detalle al cambiar de seccion, hubo que repetirlo |
-| T3 | Power BI | | | | |
+| T3 | Power BI | Pronostico, todos los destinos: Holt-Winters 2.16%, SARIMA 2.63%, Tendencia 3.65%; menor MAPE Holt-Winters (coincide con lo esperado). Clasificacion: Regresion logistica, AUC 0.710 (coincide) | 16 clics | 91 s | El informe guardado abria Pronostico con Antigua y SARIMA seleccionados y Restablecer no limpio esos segmentadores; el segmentador de modelo es de seleccion unica, asi que V16b muestra un MAPE a la vez y hubo que elegir cada modelo; la matriz V17 no separa por clase real, por lo que las 519 falsas alarmas no se leen en el visual (se verificaron por DAX) |
 
-**Entorno.** Registrar equipo, sistema operativo y experiencia previa. El Lab 10 se
+**Entorno.** Streamlit: Mac de Brandon (macOS), navegador integrado, `localhost:8501`.
+Power BI: PC de Javier con Windows 11 y Power BI Desktop 2.159.1231.0, instalado el
+mismo dia. Ambas series las ejecuto la misma automatizacion, sin experiencia previa que
+favorezca a una herramienta. El Lab 10 se
 puede ejecutar en macOS y Desktop solo en Windows; si cambia el equipo, esa diferencia
 se informa y no se atribuye a la herramienta.
 
@@ -286,15 +295,21 @@ se informa y no se atribuye a la herramienta.
 
 Valores calculados desde los datos con las reglas de agregacion del Lab 10
 (`powerbi/datos/indicadores_referencia.csv`). Filtros: 2022-2025.
+Los valores de Power BI se obtuvieron con una consulta DAX en la vista de consultas de
+Desktop, sobre las mismas medidas del informe (`[Visitantes]`, `[Derrama USD]`) y las
+tablas `MetricasSerie`, `MetricasClase` y `PredClase`, con los mismos filtros. Las
+tarjetas del informe muestran los mismos valores redondeados (16 mill., US$ 5 mil M,
+4 mill.) y la variacion contra 2018-2021 coincide (56.3% y 53.6%). Los seis indicadores
+coinciden; no hay discrepancias entre el informe y la referencia.
 
 | Indicador | Lab 10 | Power BI |
 |---|---|---|
-| Visitantes, todos los destinos | 16 207 530 | [PENDIENTE] |
-| Derrama, todos los destinos | US$ 4 721.8 millones | [PENDIENTE] |
-| Visitantes, Antigua Guatemala | 3 990 138 | [PENDIENTE] |
-| MAPE Holt-Winters, todos los destinos | 2.157% | [PENDIENTE] |
-| AUC regresion logistica | 0.710 | [PENDIENTE] |
-| Falsas alarmas, regresion logistica | 519 | [PENDIENTE] |
+| Visitantes, todos los destinos | 16 207 530 | 16 207 530 |
+| Derrama, todos los destinos | US$ 4 721.8 millones | US$ 4 721 779 181 (4 721.8 millones) |
+| Visitantes, Antigua Guatemala | 3 990 138 | 3 990 138 |
+| MAPE Holt-Winters, todos los destinos | 2.157% | 2.16% |
+| AUC regresion logistica | 0.710 | 0.71 (0.710 en V17b) |
+| Falsas alarmas, regresion logistica | 519 | 519 |
 
 **Discrepancia observada en T3.** La exportacion usada para Power BI y los indicadores de
 referencia dan Holt-Winters 2.157% y SARIMA 2.629%. La app del Lab 10 en la Mac del equipo
@@ -302,8 +317,10 @@ mostro SARIMA 2.61% y Holt-Winters 2.94%, y concluyo que SARIMA es el de menor e
 Tendencia + estacionalidad coincide en ambas (3.65%). Con statsmodels 0.15 y
 scikit-learn 1.7 una corrida independiente dio Holt-Winters 2.16% y SARIMA 2.54%. Los
 valores cambian con la version de la libreria, pero **no se ha confirmado la version
-instalada en el entorno del equipo**. **[PENDIENTE: comprobar con `pip list` en el
-entorno del Lab 10 y decidir que valores usar en ambas versiones antes de comparar.]**
+instalada en el entorno del equipo**. No se alcanzo a comprobar con `pip list` antes
+de la entrega; por eso Power BI usa la exportacion documentada (Holt-Winters 2.16%) y la
+diferencia con la app del Lab 10 queda registrada como limitacion, no como error de
+Power BI.
 La clasificacion no cambia (AUC 0.710, 519 falsas alarmas).
 
 ## 5.6 Recomendaciones
@@ -337,7 +354,44 @@ Tomadas el 8 de noviembre de 2026 en la app del Lab 10 (`localhost:8501`).
 ![T3. Matrices de confusion y AUC de los tres clasificadores](capturas/T3_streamlit_matriz_confusion_roc.jpg){width=45%}
 
 La captura de T1 corresponde a la primera corrida; el valor es el mismo que en la
-corrida medida. **[PENDIENTE: capturas de cada pagina en Power BI, de cada seccion de
-Streamlit y de las pruebas en Power BI.]**
+corrida medida.
+
+## Capturas de Power BI (Lab 12)
+
+Tomadas el 8 de noviembre de 2026 en Power BI Desktop 2.159, PC Windows de Javier.
+
+![T1. Panorama con 2022-2025 y Antigua Guatemala](capturas/T1_powerbi_antigua_2022-2025.jpg){width=70%}
+
+![T2. V2 en detalle trimestral de 2024](capturas/T2_powerbi_2024_trimestre.jpg){width=45%}
+
+![T2. Regreso a la vista anual](capturas/T2_powerbi_regreso_anual.jpg){width=45%}
+
+![T3. Pronostico, todos los destinos, V16 y V16b](capturas/T3_powerbi_pronostico.jpg){width=45%}
+
+![T3. Promotores, regresion logistica: AUC 0.710](capturas/T3_powerbi_promotores_rl.jpg){width=45%}
+
+![5.5. Consulta DAX de los seis indicadores](capturas/V_powerbi_consulta_dax_indicadores.jpg){width=80%}
+
+![Pagina Explorar](capturas/P_powerbi_explorar.jpg){width=45%}
+
+![Pagina Sostenibilidad](capturas/P_powerbi_sostenibilidad.jpg){width=45%}
+
+![Pagina Guia](capturas/P_powerbi_guia.jpg){width=45%}
+
+## Problemas observados en la revision en Desktop
+
+El PBIP se genero fuera de Desktop y esta fue su primera apertura. Se observaron tres
+problemas que no se alcanzaron a corregir antes de la entrega:
+
+1. **Botones de navegacion sin texto.** Los seis botones superiores aparecen como
+   recuadros violeta vacios; la navegacion funciona con las pestanas de pagina, pero el
+   usuario no ve el nombre de cada seccion en los botones.
+2. **V1 en Panorama no se dibuja.** Desktop muestra el aviso de que los campos de los
+   ejes X e Y deben resumirse; el visual queda vacio. V2 a V4 funcionan.
+3. **La matriz V17 no separa por clase real.** Muestra solo la clase predicha por modelo,
+   por lo que aciertos, falsas alarmas y oportunidades perdidas no se distinguen en el
+   visual; las metricas de V17b y la curva ROC si son correctas.
+
+Ademas, Restablecer no limpia los segmentadores de Pronostico y Promotores.
 
 **Repositorio del Laboratorio 10:** <https://github.com/jlope384/Laboratorio-10-Dashboard>

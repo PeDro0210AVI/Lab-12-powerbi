@@ -19,3 +19,7 @@ kaggle.json
 
 # macOS
 .DS_Store
+
+# Archivos auxiliares de Claude (MIPS y scripts), no son del lab
+Claude outputs/
+html2pdf*
